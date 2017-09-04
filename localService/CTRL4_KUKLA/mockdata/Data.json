@@ -1,0 +1,28 @@
+{
+	"d": {
+		"results": [{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.TableViewer3.xs.services.staticFilters.CTRL4_KUKLA.DataType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/staticFilters/CTRL4_KUKLA.xsodata/Data('Value%20''G''')"
+			},
+			"Id": 2,
+			"Value": "Value 'G'",
+			"Column": "KUKLA",
+			"Operator": "EQ",
+			"Option1": "G",
+			"Option2": null
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.TableViewer3.xs.services.staticFilters.CTRL4_KUKLA.DataType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/staticFilters/CTRL4_KUKLA.xsodata/Data('Value%20''K''')"
+			},
+			"Id": 1,
+			"Value": "Value 'K'",
+			"Column": "KUKLA",
+			"Operator": "EQ",
+			"Option1": "K",
+			"Option2": null
+		}]
+	}
+}

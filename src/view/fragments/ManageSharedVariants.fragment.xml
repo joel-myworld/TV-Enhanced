@@ -1,0 +1,113 @@
+<core:FragmentDefinition 
+						xmlns="sap.m"
+						xmlns:core="sap.ui.core"
+						xmlns:l="sap.ui.layout">
+
+	<Dialog
+			class="sapUiSizeCompact"
+			showHeader="false"
+			contentHeight="300px"
+			beforeOpen="onBeforeDialogOpen"
+			afterClose="onAfterDialogClose">
+		<content>
+			<NavContainer
+					id="navContainer">
+				<Page
+						id="mainPage"
+						title="{i18n>sharedVariantMngt.Dialog.Title}">
+					<headerContent>
+						<Button
+								icon="sap-icon://refresh"
+								press="onRefreshSharedVariants"/>
+					</headerContent>
+					<content>
+						<List
+								id="listSharedVariants"
+								class="clsVariantMngtList"
+								mode="Delete"
+								delete="onDeleteSharedVariant"
+								enableBusyIndicator="true"
+								busyIndicatorDelay="0"
+								noDataText="{i18n>sharedVariantMngt.Dialog.List.NoData}"
+								items="{
+										path: 'main>/VariantManagement',
+										filters: {path: 'USERID', operator: 'EQ', value1: 'Admin'}
+							}">
+							<StandardListItem
+									title="{main>VARIANT_NAME}"
+									type="Active"
+									press="onEditSharedVariant"/>
+						</List>
+					</content>
+					<footer>
+						<Toolbar>
+							<ToolbarSpacer/>
+							<Button
+									text="{i18n>sharedVariantMngt.Dialog.Button.CreateNew}"
+									press="onCreateSharedVariant"/>
+							<Button
+									text="{i18n>sharedVariantMngt.Dialog.Button.Close}"
+									press="onCloseSharedVariants"/>
+						</Toolbar>
+					</footer>
+				</Page>
+				<Page
+						id="managePage"
+						class="sapUiContentPadding"
+						title="{i18n>sharedVariantMngt.Dialog.Title}"
+						showNavButton="true"
+						navButtonPress="onNavBack">
+					<content>
+						<Label
+								text="{i18n>sharedVariantMngt.Dialog.Label.Name}"
+								required="true"/>
+						<Input
+								id="inputSharedVariantName"
+								value="{main>VARIANT_NAME}"
+								liveChange="onLiveChangeSharedVariantName"/>
+						<l:VerticalLayout>
+							<CheckBox
+									id="checkboxIsGlobal"
+									selected="{
+												path: 'main>IS_DEFAULT',
+												type: 'com.siemens.tableViewer.model.types.hanaBoolean'
+									}"
+									class="sapUiSmallMarginBegin"
+									text="{i18n>sharedVariantMngt.Dialog.CheckBox.SetAsDefault}"/>
+							<Label
+									class="sapUiMediumMarginTop"
+									text="{i18n>sharedVariantMngt.Dialog.Label.SelectUser}"
+									required="true"/>
+						</l:VerticalLayout>
+						<MultiInput
+								id="inputForSelectedUsers"
+								showValueHelp="true"
+								valueHelpOnly="true"
+								valueHelpRequest="._createUserListDialog"
+								tokenChange="._attachSharedUsersTokenChange"
+								valueStateText="{i18n>sharedVariantMngt.Dialog.ValueState.MissingUser}"
+								value="{
+										path: 'main>FOR_USERS',
+										formatter: '._formatSavedUsers'
+								}"/>
+					</content>
+					<footer>
+						<Toolbar>
+							<ToolbarSpacer/>
+							<Button
+									enabled="{
+												parts: ['variantManagementView>/inputFieldPassedCheck', 'variantManagementView>/multiInputFieldPassedCheck'],
+												formatter: '.formatter.setButtonEnabled'
+									}"
+									text="{i18n>sharedVariantMngt.Dialog.Button.Publish}"
+									press="onPublishSharedVariants"/>
+							<Button
+									text="{i18n>sharedVariantMngt.Dialog.Button.Close}"
+									press="onCloseSharedVariants"/>
+						</Toolbar>
+					</footer>
+				</Page>
+			</NavContainer>
+		</content>
+	</Dialog>
+</core:FragmentDefinition>

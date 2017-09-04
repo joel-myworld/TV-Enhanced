@@ -1,0 +1,46 @@
+<mvc:View 
+        controllerName="com.siemens.tableViewer.controller.tabs.TreeXS"
+		displayBlock="true"
+        height="100%"
+        xmlns:mvc="sap.ui.core.mvc" 
+        xmlns:m="sap.m" 
+        xmlns="sap.ui.table">
+	<TreeTable
+			id="treeXS"
+			visibleRowCountMode="Auto"
+			enableSelectAll="false"
+			enableBusyIndicator="true"
+			busy="{treeView>/busy}"
+			busyIndicatorDelay="{treeView>/delay}"
+			columns="{
+				path: 'columnModel>/Columns',
+				templateShareable : false,
+				factory: '.tablesUtilities._columnFactory'
+			}">
+		<toolbar>
+			<m:OverflowToolbar design="Solid">
+				<m:Title
+						text="{mainView>/TABLE_TITLE}"
+						class="sapUiSmallMargin"/>
+				<m:ToolbarSpacer/>
+				<m:ToggleButton
+						type="Transparent"
+						icon="sap-icon://full-screen"
+						tooltip="{i18n>tbl.fullScreenToggle}"
+						press="onFullScreen"/>
+				<m:OverflowToolbarButton
+						type="Transparent"
+						icon="sap-icon://settings"
+						text="{i18n>tbl.columnSettings}"
+						tooltip="{i18n>tbl.columnSettings}"
+						press="onTableColumnSettingsPress"/>
+				<m:OverflowToolbarButton
+						type="Transparent"
+						text="{i18n>tbl.export}"
+						icon="sap-icon://download"
+						tooltip="{i18n>tbl.export}"
+						press="onTableExport"/>
+			</m:OverflowToolbar>
+		</toolbar>
+	</TreeTable>
+</mvc:View>

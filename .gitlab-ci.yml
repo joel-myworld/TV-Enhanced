@@ -1,0 +1,17 @@
+image: node:argon
+
+before_script:
+  - npm config set registry https://devops.bt.siemens.com/artifactory/api/npm/npm-all
+  - npm config set sass_binary_site https://devops.bt.siemens.com/artifactory/simple/libs-external/npmBinaries/node-sass
+  - npm config set phantomjs_cdnurl https://devops.bt.siemens.com/artifactory/simple/libs-external/npmBinaries/phantomjs
+  - npm install grunt-cli -g
+  - npm install
+
+variables:
+    NPM_CONFIG_LOGLEVEL: warn
+
+ESLint:
+  script:
+    - grunt lint
+  tags:
+    - DOCKER

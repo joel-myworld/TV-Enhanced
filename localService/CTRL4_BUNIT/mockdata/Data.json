@@ -1,0 +1,500 @@
+{
+	"d": {
+		"results": [{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.TableViewer3.xs.services.staticFilters.CTRL4_BUNIT.DataType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/staticFilters/CTRL4_BUNIT.xsodata/Data('52859397958492931')"
+			},
+			"ID": "52859397958492931",
+			"BUNIT": "HSC001"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.TableViewer3.xs.services.staticFilters.CTRL4_BUNIT.DataType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/staticFilters/CTRL4_BUNIT.xsodata/Data('52859397958492932')"
+			},
+			"ID": "52859397958492932",
+			"BUNIT": "HSC002"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.TableViewer3.xs.services.staticFilters.CTRL4_BUNIT.DataType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/staticFilters/CTRL4_BUNIT.xsodata/Data('52859397958492933')"
+			},
+			"ID": "52859397958492933",
+			"BUNIT": "HSC003"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.TableViewer3.xs.services.staticFilters.CTRL4_BUNIT.DataType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/staticFilters/CTRL4_BUNIT.xsodata/Data('52859397958492934')"
+			},
+			"ID": "52859397958492934",
+			"BUNIT": "HSC004"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.TableViewer3.xs.services.staticFilters.CTRL4_BUNIT.DataType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/staticFilters/CTRL4_BUNIT.xsodata/Data('52859397958492935')"
+			},
+			"ID": "52859397958492935",
+			"BUNIT": "HSC005"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.TableViewer3.xs.services.staticFilters.CTRL4_BUNIT.DataType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/staticFilters/CTRL4_BUNIT.xsodata/Data('52859397958492936')"
+			},
+			"ID": "52859397958492936",
+			"BUNIT": "HSC006"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.TableViewer3.xs.services.staticFilters.CTRL4_BUNIT.DataType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/staticFilters/CTRL4_BUNIT.xsodata/Data('52859397958492937')"
+			},
+			"ID": "52859397958492937",
+			"BUNIT": "HSC999"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.TableViewer3.xs.services.staticFilters.CTRL4_BUNIT.DataType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/staticFilters/CTRL4_BUNIT.xsodata/Data('52859397958492938')"
+			},
+			"ID": "52859397958492938",
+			"BUNIT": "HSCXXX"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.TableViewer3.xs.services.staticFilters.CTRL4_BUNIT.DataType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/staticFilters/CTRL4_BUNIT.xsodata/Data('52859397958492939')"
+			},
+			"ID": "52859397958492939",
+			"BUNIT": "SBT015"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.TableViewer3.xs.services.staticFilters.CTRL4_BUNIT.DataType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/staticFilters/CTRL4_BUNIT.xsodata/Data('528593979584929310')"
+			},
+			"ID": "528593979584929310",
+			"BUNIT": "SBT016"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.TableViewer3.xs.services.staticFilters.CTRL4_BUNIT.DataType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/staticFilters/CTRL4_BUNIT.xsodata/Data('528593979584929311')"
+			},
+			"ID": "528593979584929311",
+			"BUNIT": "SBT017"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.TableViewer3.xs.services.staticFilters.CTRL4_BUNIT.DataType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/staticFilters/CTRL4_BUNIT.xsodata/Data('528593979584929312')"
+			},
+			"ID": "528593979584929312",
+			"BUNIT": "SBT999"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.TableViewer3.xs.services.staticFilters.CTRL4_BUNIT.DataType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/staticFilters/CTRL4_BUNIT.xsodata/Data('528593979584929313')"
+			},
+			"ID": "528593979584929313",
+			"BUNIT": "SBTXXX"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.TableViewer3.xs.services.staticFilters.CTRL4_BUNIT.DataType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/staticFilters/CTRL4_BUNIT.xsodata/Data('528593979584929314')"
+			},
+			"ID": "528593979584929314",
+			"BUNIT": "SDF010"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.TableViewer3.xs.services.staticFilters.CTRL4_BUNIT.DataType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/staticFilters/CTRL4_BUNIT.xsodata/Data('528593979584929315')"
+			},
+			"ID": "528593979584929315",
+			"BUNIT": "SDF020"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.TableViewer3.xs.services.staticFilters.CTRL4_BUNIT.DataType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/staticFilters/CTRL4_BUNIT.xsodata/Data('528593979584929316')"
+			},
+			"ID": "528593979584929316",
+			"BUNIT": "SDF030"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.TableViewer3.xs.services.staticFilters.CTRL4_BUNIT.DataType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/staticFilters/CTRL4_BUNIT.xsodata/Data('528593979584929317')"
+			},
+			"ID": "528593979584929317",
+			"BUNIT": "SDF040"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.TableViewer3.xs.services.staticFilters.CTRL4_BUNIT.DataType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/staticFilters/CTRL4_BUNIT.xsodata/Data('528593979584929318')"
+			},
+			"ID": "528593979584929318",
+			"BUNIT": "SDF070"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.TableViewer3.xs.services.staticFilters.CTRL4_BUNIT.DataType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/staticFilters/CTRL4_BUNIT.xsodata/Data('528593979584929319')"
+			},
+			"ID": "528593979584929319",
+			"BUNIT": "SDF999"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.TableViewer3.xs.services.staticFilters.CTRL4_BUNIT.DataType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/staticFilters/CTRL4_BUNIT.xsodata/Data('528593979584929320')"
+			},
+			"ID": "528593979584929320",
+			"BUNIT": "SDFXXX"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.TableViewer3.xs.services.staticFilters.CTRL4_BUNIT.DataType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/staticFilters/CTRL4_BUNIT.xsodata/Data('528593979584929321')"
+			},
+			"ID": "528593979584929321",
+			"BUNIT": "SEM010"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.TableViewer3.xs.services.staticFilters.CTRL4_BUNIT.DataType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/staticFilters/CTRL4_BUNIT.xsodata/Data('528593979584929322')"
+			},
+			"ID": "528593979584929322",
+			"BUNIT": "SEM020"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.TableViewer3.xs.services.staticFilters.CTRL4_BUNIT.DataType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/staticFilters/CTRL4_BUNIT.xsodata/Data('528593979584929323')"
+			},
+			"ID": "528593979584929323",
+			"BUNIT": "SEM030"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.TableViewer3.xs.services.staticFilters.CTRL4_BUNIT.DataType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/staticFilters/CTRL4_BUNIT.xsodata/Data('528593979584929324')"
+			},
+			"ID": "528593979584929324",
+			"BUNIT": "SEM040"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.TableViewer3.xs.services.staticFilters.CTRL4_BUNIT.DataType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/staticFilters/CTRL4_BUNIT.xsodata/Data('528593979584929325')"
+			},
+			"ID": "528593979584929325",
+			"BUNIT": "SEM050"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.TableViewer3.xs.services.staticFilters.CTRL4_BUNIT.DataType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/staticFilters/CTRL4_BUNIT.xsodata/Data('528593979584929326')"
+			},
+			"ID": "528593979584929326",
+			"BUNIT": "SEM060"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.TableViewer3.xs.services.staticFilters.CTRL4_BUNIT.DataType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/staticFilters/CTRL4_BUNIT.xsodata/Data('528593979584929327')"
+			},
+			"ID": "528593979584929327",
+			"BUNIT": "SEM999"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.TableViewer3.xs.services.staticFilters.CTRL4_BUNIT.DataType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/staticFilters/CTRL4_BUNIT.xsodata/Data('528593979584929328')"
+			},
+			"ID": "528593979584929328",
+			"BUNIT": "SEMXXX"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.TableViewer3.xs.services.staticFilters.CTRL4_BUNIT.DataType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/staticFilters/CTRL4_BUNIT.xsodata/Data('528593979584929329')"
+			},
+			"ID": "528593979584929329",
+			"BUNIT": "SMO010"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.TableViewer3.xs.services.staticFilters.CTRL4_BUNIT.DataType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/staticFilters/CTRL4_BUNIT.xsodata/Data('528593979584929330')"
+			},
+			"ID": "528593979584929330",
+			"BUNIT": "SMO020"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.TableViewer3.xs.services.staticFilters.CTRL4_BUNIT.DataType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/staticFilters/CTRL4_BUNIT.xsodata/Data('528593979584929331')"
+			},
+			"ID": "528593979584929331",
+			"BUNIT": "SMO030"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.TableViewer3.xs.services.staticFilters.CTRL4_BUNIT.DataType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/staticFilters/CTRL4_BUNIT.xsodata/Data('528593979584929332')"
+			},
+			"ID": "528593979584929332",
+			"BUNIT": "SMO040"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.TableViewer3.xs.services.staticFilters.CTRL4_BUNIT.DataType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/staticFilters/CTRL4_BUNIT.xsodata/Data('528593979584929333')"
+			},
+			"ID": "528593979584929333",
+			"BUNIT": "SMO050"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.TableViewer3.xs.services.staticFilters.CTRL4_BUNIT.DataType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/staticFilters/CTRL4_BUNIT.xsodata/Data('528593979584929334')"
+			},
+			"ID": "528593979584929334",
+			"BUNIT": "SMO999"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.TableViewer3.xs.services.staticFilters.CTRL4_BUNIT.DataType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/staticFilters/CTRL4_BUNIT.xsodata/Data('528593979584929335')"
+			},
+			"ID": "528593979584929335",
+			"BUNIT": "SMOXXX"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.TableViewer3.xs.services.staticFilters.CTRL4_BUNIT.DataType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/staticFilters/CTRL4_BUNIT.xsodata/Data('528593979584929336')"
+			},
+			"ID": "528593979584929336",
+			"BUNIT": "SPD010"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.TableViewer3.xs.services.staticFilters.CTRL4_BUNIT.DataType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/staticFilters/CTRL4_BUNIT.xsodata/Data('528593979584929337')"
+			},
+			"ID": "528593979584929337",
+			"BUNIT": "SPD020"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.TableViewer3.xs.services.staticFilters.CTRL4_BUNIT.DataType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/staticFilters/CTRL4_BUNIT.xsodata/Data('528593979584929338')"
+			},
+			"ID": "528593979584929338",
+			"BUNIT": "SPD030"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.TableViewer3.xs.services.staticFilters.CTRL4_BUNIT.DataType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/staticFilters/CTRL4_BUNIT.xsodata/Data('528593979584929339')"
+			},
+			"ID": "528593979584929339",
+			"BUNIT": "SPD040"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.TableViewer3.xs.services.staticFilters.CTRL4_BUNIT.DataType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/staticFilters/CTRL4_BUNIT.xsodata/Data('528593979584929340')"
+			},
+			"ID": "528593979584929340",
+			"BUNIT": "SPD999"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.TableViewer3.xs.services.staticFilters.CTRL4_BUNIT.DataType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/staticFilters/CTRL4_BUNIT.xsodata/Data('528593979584929341')"
+			},
+			"ID": "528593979584929341",
+			"BUNIT": "SPDXXX"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.TableViewer3.xs.services.staticFilters.CTRL4_BUNIT.DataType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/staticFilters/CTRL4_BUNIT.xsodata/Data('528593979584929342')"
+			},
+			"ID": "528593979584929342",
+			"BUNIT": "SPG010"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.TableViewer3.xs.services.staticFilters.CTRL4_BUNIT.DataType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/staticFilters/CTRL4_BUNIT.xsodata/Data('528593979584929343')"
+			},
+			"ID": "528593979584929343",
+			"BUNIT": "SPG020"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.TableViewer3.xs.services.staticFilters.CTRL4_BUNIT.DataType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/staticFilters/CTRL4_BUNIT.xsodata/Data('528593979584929344')"
+			},
+			"ID": "528593979584929344",
+			"BUNIT": "SPG025"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.TableViewer3.xs.services.staticFilters.CTRL4_BUNIT.DataType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/staticFilters/CTRL4_BUNIT.xsodata/Data('528593979584929345')"
+			},
+			"ID": "528593979584929345",
+			"BUNIT": "SPG030"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.TableViewer3.xs.services.staticFilters.CTRL4_BUNIT.DataType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/staticFilters/CTRL4_BUNIT.xsodata/Data('528593979584929346')"
+			},
+			"ID": "528593979584929346",
+			"BUNIT": "SPG110"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.TableViewer3.xs.services.staticFilters.CTRL4_BUNIT.DataType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/staticFilters/CTRL4_BUNIT.xsodata/Data('528593979584929347')"
+			},
+			"ID": "528593979584929347",
+			"BUNIT": "SPG120"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.TableViewer3.xs.services.staticFilters.CTRL4_BUNIT.DataType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/staticFilters/CTRL4_BUNIT.xsodata/Data('528593979584929348')"
+			},
+			"ID": "528593979584929348",
+			"BUNIT": "SPG510"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.TableViewer3.xs.services.staticFilters.CTRL4_BUNIT.DataType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/staticFilters/CTRL4_BUNIT.xsodata/Data('528593979584929349')"
+			},
+			"ID": "528593979584929349",
+			"BUNIT": "SPG520"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.TableViewer3.xs.services.staticFilters.CTRL4_BUNIT.DataType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/staticFilters/CTRL4_BUNIT.xsodata/Data('528593979584929350')"
+			},
+			"ID": "528593979584929350",
+			"BUNIT": "SPG580"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.TableViewer3.xs.services.staticFilters.CTRL4_BUNIT.DataType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/staticFilters/CTRL4_BUNIT.xsodata/Data('528593979584929351')"
+			},
+			"ID": "528593979584929351",
+			"BUNIT": "SPG750"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.TableViewer3.xs.services.staticFilters.CTRL4_BUNIT.DataType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/staticFilters/CTRL4_BUNIT.xsodata/Data('528593979584929352')"
+			},
+			"ID": "528593979584929352",
+			"BUNIT": "SPG995"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.TableViewer3.xs.services.staticFilters.CTRL4_BUNIT.DataType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/staticFilters/CTRL4_BUNIT.xsodata/Data('528593979584929353')"
+			},
+			"ID": "528593979584929353",
+			"BUNIT": "SPG999"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.TableViewer3.xs.services.staticFilters.CTRL4_BUNIT.DataType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/staticFilters/CTRL4_BUNIT.xsodata/Data('528593979584929354')"
+			},
+			"ID": "528593979584929354",
+			"BUNIT": "SPGXXX"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.TableViewer3.xs.services.staticFilters.CTRL4_BUNIT.DataType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/staticFilters/CTRL4_BUNIT.xsodata/Data('528593979584929355')"
+			},
+			"ID": "528593979584929355",
+			"BUNIT": "SWP010"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.TableViewer3.xs.services.staticFilters.CTRL4_BUNIT.DataType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/staticFilters/CTRL4_BUNIT.xsodata/Data('528593979584929356')"
+			},
+			"ID": "528593979584929356",
+			"BUNIT": "SWP020"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.TableViewer3.xs.services.staticFilters.CTRL4_BUNIT.DataType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/staticFilters/CTRL4_BUNIT.xsodata/Data('528593979584929357')"
+			},
+			"ID": "528593979584929357",
+			"BUNIT": "SWP070"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.TableViewer3.xs.services.staticFilters.CTRL4_BUNIT.DataType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/staticFilters/CTRL4_BUNIT.xsodata/Data('528593979584929358')"
+			},
+			"ID": "528593979584929358",
+			"BUNIT": "SWP510"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.TableViewer3.xs.services.staticFilters.CTRL4_BUNIT.DataType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/staticFilters/CTRL4_BUNIT.xsodata/Data('528593979584929359')"
+			},
+			"ID": "528593979584929359",
+			"BUNIT": "SWP990"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.TableViewer3.xs.services.staticFilters.CTRL4_BUNIT.DataType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/staticFilters/CTRL4_BUNIT.xsodata/Data('528593979584929360')"
+			},
+			"ID": "528593979584929360",
+			"BUNIT": "SWP999"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.TableViewer3.xs.services.staticFilters.CTRL4_BUNIT.DataType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/staticFilters/CTRL4_BUNIT.xsodata/Data('528593979584929361')"
+			},
+			"ID": "528593979584929361",
+			"BUNIT": "SWPXXX"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.TableViewer3.xs.services.staticFilters.CTRL4_BUNIT.DataType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/staticFilters/CTRL4_BUNIT.xsodata/Data('528593979584929362')"
+			},
+			"ID": "528593979584929362",
+			"BUNIT": "SXXXXX"
+		}]
+	}
+}

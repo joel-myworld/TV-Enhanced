@@ -1,0 +1,24 @@
+/* Filter Bar Dialog */
+.sapUiCompFilterBarAddFilterLabel {
+	position: absolute !important; /* Add to Filter Bar text always visible */
+}
+
+/* Value Help Dialog */
+.compVHMainTable.sapUiTable.siemensHide .sapUiTableHdr {
+	visibility: hidden; /* Hide standard table header */
+	display: none; /* Remove standard table header from DOM */
+}
+.clsVHTableTitle {
+	font-weight: bold; /* Set title table bold */
+    font-size: 18px; /* Increase table title size */
+}
+
+/* Shared Variant Management Dialog */
+.clsVariantMngtList .sapMLIBSelectD > .sapUiIcon {
+	font-size: 1rem;	/* Font size for Delete Icon in the List of Shared Variants */
+}
+
+/* Table */
+.siemensTextBold {
+    font-weight: bold; /* Set Columns label to be Bold, since sap.m.Text doesn't have property "design" */
+}

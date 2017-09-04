@@ -1,0 +1,110 @@
+{
+  "d": {
+	"results": [
+	  {
+		"__metadata": {
+		  "type": "siemens.COMMON_DEV.TableViewer3.xs.services.Main.ChartsType",
+		  "uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/Main.xsodata/Charts(CTRLID='CTRL1',CHARTID='c1')"
+		},
+		"CTRLID": "CTRL1",
+		"CHARTID": "c1",
+		"TITLE": "First Chart",
+		"VISIBLE": 1,
+		"TYPE": "bar",
+		"YAXISLABEL": "Y-AXIS Label A",
+		"COLOR":"blue",
+		"ChartsToDimensionsMeasures": {
+		  "__deferred": {
+			"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/Main.xsodata/Charts(CTRLID='CTRL1',CHARTID='c1')/ChartsToDimensionsMeasures"
+		  }
+		}
+	  },
+	  {
+		"__metadata": {
+		  "type": "siemens.COMMON_DEV.TableViewer3.xs.services.Main.ChartsType",
+		  "uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/Main.xsodata/Charts(CTRLID='CTRL1',CHARTID='c2')"
+		},
+		"CTRLID": "CTRL1",
+		"CHARTID": "c2",
+		"TITLE": "Second Chart",
+		"VISIBLE": 1,
+		"TYPE": "line",
+		"YAXISLABEL": "Y-AXIS Label B",
+		"COLOR":"#e34352,#d32030",
+		"ChartsToDimensionsMeasures": {
+		  "__deferred": {
+			"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/Main.xsodata/Charts(CTRLID='CTRL1',CHARTID='c2')/ChartsToDimensionsMeasures"
+		  }
+		}
+	  },
+	  {
+		"__metadata": {
+		  "type": "siemens.COMMON_DEV.TableViewer3.xs.services.Main.ChartsType",
+		  "uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/Main.xsodata/Charts(CTRLID='CTRL1',CHARTID='c3')"
+		},
+		"CTRLID": "CTRL1",
+		"CHARTID": "c3",
+		"TITLE": "Third Chart",
+		"VISIBLE": 0,
+		"TYPE": "bar",
+		"YAXISLABEL": "Y-AXIS Label C",
+		"ChartsToDimensionsMeasures": {
+		  "__deferred": {
+			"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/Main.xsodata/Charts(CTRLID='CTRL1',CHARTID='c3')/ChartsToDimensionsMeasures"
+		  }
+		}
+	  },
+	  {
+		"__metadata": {
+		  "type": "siemens.COMMON_DEV.TableViewer3.xs.services.Main.ChartsType",
+		  "uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/Main.xsodata/Charts(CTRLID='CTRL1',CHARTID='c4')"
+		},
+		"CTRLID": "CTRL1",
+		"CHARTID": "c4",
+		"TITLE": "Fourth Chart",
+		"VISIBLE": 0,
+		"TYPE": "line",
+		"YAXISLABEL": "Y-AXIS Label D",
+		"ChartsToDimensionsMeasures": {
+		  "__deferred": {
+			"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/Main.xsodata/Charts(CTRLID='CTRL1',CHARTID='c4')/ChartsToDimensionsMeasures"
+		  }
+		}
+	  },
+	  {
+		"__metadata": {
+		  "type": "siemens.COMMON_DEV.TableViewer3.xs.services.Main.ChartsType",
+		  "uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/Main.xsodata/Charts(CTRLID='CTRL1',CHARTID='c5')"
+		},
+		"CTRLID": "CTRL1",
+		"CHARTID": "c5",
+		"TITLE": "Fifth Chart",
+		"VISIBLE": 0,
+		"TYPE": "line",
+		"YAXISLABEL": "Y-AXIS Label E",
+		"ChartsToDimensionsMeasures": {
+		  "__deferred": {
+			"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/Main.xsodata/Charts(CTRLID='CTRL1',CHARTID='c5')/ChartsToDimensionsMeasures"
+		  }
+		}
+	  },
+	  {
+		"__metadata": {
+		  "type": "siemens.COMMON_DEV.TableViewer3.xs.services.Main.ChartsType",
+		  "uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/Main.xsodata/Charts(CTRLID='CTRL1',CHARTID='c6')"
+		},
+		"CTRLID": "CTRL1",
+		"CHARTID": "c6",
+		"TITLE": "Sixth Chart",
+		"VISIBLE": 0,
+		"TYPE": "line",
+		"YAXISLABEL": "Y-AXIS Label F",
+		"ChartsToDimensionsMeasures": {
+		  "__deferred": {
+			"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/Main.xsodata/Charts(CTRLID='CTRL1',CHARTID='c6')/ChartsToDimensionsMeasures"
+		  }
+		}
+	  }
+	]
+  }
+}

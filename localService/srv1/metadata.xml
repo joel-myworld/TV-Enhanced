@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<edmx:Edmx Version="1.0" xmlns:edmx="http://schemas.microsoft.com/ado/2007/06/edmx">
+	<edmx:DataServices xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata"
+					   m:DataServiceVersion="2.0">
+		<Schema Namespace="siemens.COMMON_DEV.xs.services.tableViewerOData.srv1"
+				xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices"
+				xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata"
+				xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+			<EntityType Name="FreeDateCrossPlantType">
+				<Key>
+					<PropertyRef Name="ID"/>
+				</Key>
+				<Property Name="ID" Type="Edm.String" Nullable="false" MaxLength="2147483647"/>
+				<Property Name="CALMONTH" Type="Edm.String" MaxLength="6"/>
+				<Property Name="TESTL" Type="Edm.String" MaxLength="12"/>
+				<Property Name="LOCAT_CAL" Type="Edm.String" MaxLength="10"/>
+				<Property Name="SELEC" Type="Edm.String" MaxLength="12"/>
+				<Property Name="ERDAT" Type="Edm.String" MaxLength="5000"/>
+				<Property Name="ERDAT_DATE" Type="Edm.DateTime"/>
+				<Property Name="KEYDATE_1" Type="Edm.DateTime"/>
+				<Property Name="KEYDATE_2" Type="Edm.DateTime"/>
+				<Property Name="NUCAF" Type="Edm.Double"/>
+				<Property Name="DELTA" Type="Edm.Decimal" Precision="18" Scale="0"/>
+				<Property Name="SELNUCAF" Type="Edm.Decimal" Precision="34"/>
+				<Property Name="COMPNUCAF" Type="Edm.Decimal" Precision="34"/>
+			</EntityType>
+			<EntityContainer Name="srv1" m:IsDefaultEntityContainer="true">
+				<EntitySet Name="FreeDateCrossPlant"
+						   EntityType="siemens.COMMON_DEV.xs.services.tableViewerOData.srv1.FreeDateCrossPlantType"/>
+			</EntityContainer>
+		</Schema>
+	</edmx:DataServices>
+</edmx:Edmx>

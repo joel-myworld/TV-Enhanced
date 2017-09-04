@@ -1,0 +1,131 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc"
+		  xmlns:core="sap.ui.core"
+		  controllerName="com.siemens.tableViewer.controller.Main"
+		  displayBlock="true"
+		  xmlns:l="sap.ui.layout"
+		  xmlns="sap.m">
+	<Page
+			id="mainPage"
+			busy="{mainView>/busy}"
+			busyIndicatorDelay="{mainView>/delay}"
+			navButtonPress="onNavBack" 
+    		showNavButton="true"
+			title="{mainView>/PAGE_TITLE}">
+			<headerContent>
+			 <!-- Header EXTENSION POINT -->
+	         <core:ExtensionPoint name="siemensUiHeaderExtension1"/>
+				<Button
+						visible="{= ${mainView>/INPUT_PARAMETERS} === 1 ? true : false}"
+						press="onInputParametersPress"
+						icon="sap-icon://dimension" />
+             <!-- Header EXTENSION POINT -->
+	         <core:ExtensionPoint name="siemensUiHeaderExtension2"/>						
+			</headerContent>
+		<content>
+		    <!-- PAGE EXTENSION POINT -->
+            <core:ExtensionPoint name="siemensUiPageExtension1"/>
+			<l:FixFlex
+					class="fixFlexVertical">
+				<l:fixContent>
+					<l:VerticalLayout
+							id="filterBarContainer"
+							visible="{mainView>/filterVisible}"
+							width="100%"/>
+	            <!-- PAGE EXTENSION POINT -->
+    	        <core:ExtensionPoint name="siemensUiPageExtension2"/>			
+				</l:fixContent>
+				<l:flexContent>
+   				<ScrollContainer
+						height="100%"
+						width="100%"
+						horizontal="true"
+						vertical="true"
+						focusable="false">
+					<IconTabBar
+							id="idIconTabBar"
+							select="onIconTablSelect"
+							stretchContentHeight="true"
+							backgroundDesign="Transparent"
+							applyContentPadding="false"
+							upperCase="true"
+							selectedKey="{mainView>/selectedKey}"
+							expandable="false">
+						<items>
+			               	<!-- ICON TAB BAR EXTENSION POINT -->
+		                    <core:ExtensionPoint name="siemensUiTabExtension1" />
+							<IconTabFilter
+									id="tableTab"
+									key="Table"
+									icon="sap-icon://database"
+									iconColor="Positive"
+									text="{i18n>iconTabBar.table}"
+									visible="{
+										parts: ['mainView>/IS_HIERARCHY', 'mainView>/ODATA_SRV', 'mainView>/IS_MIXED'],
+										formatter: '.formatter.hideTableTab'
+									}"/>
+							<!-- ICON TAB BAR EXTENSION POINT -->
+		                    <core:ExtensionPoint name="siemensUiTabExtension2" />
+							<IconTabFilter
+									id="chartTab"
+									key="Chart"
+									icon="sap-icon://business-objects-experience"
+									text="{i18n>iconTabBar.chart}"
+									visible="{
+										parts: ['mainView>/IS_HIERARCHY', 'mainView>/ODATA_SRV', 'mainView>/CHART_VISIBLE', 'mainView>/IS_MIXED'],
+										formatter: '.formatter.hideChartTab'
+									}"/>
+							<!-- ICON TAB BAR EXTENSION POINT -->
+		                    <core:ExtensionPoint name="siemensUiTabExtension3" />
+							<IconTabFilter
+									id="treeXSTab"
+									key="TreeXS"
+									icon="sap-icon://tree"
+									iconColor="Neutral"
+									text="{i18n>iconTabBar.treeTable}"
+									visible="{
+										parts: ['mainView>/IS_HIERARCHY', 'mainView>/ODATA_SRV'],
+										formatter: '.formatter.hideTreeXSTab'
+									}"/>
+							<!-- ICON TAB BAR EXTENSION POINT -->
+		                    <core:ExtensionPoint name="siemensUiTabExtension4" />
+							<IconTabFilter
+									id="treeTab"
+									key="Tree"
+									icon="sap-icon://tree"
+									iconColor="Neutral"
+									text="{i18n>iconTabBar.treeTable}"
+									visible="{
+										parts: ['mainView>/IS_HIERARCHY', 'mainView>/ODATA_SRV'],
+										formatter: '.formatter.hideTreeTab'
+									}"/>
+							<!-- ICON TAB BAR EXTENSION POINT -->
+		                    <core:ExtensionPoint name="siemensUiTabExtension5" />
+							<IconTabFilter
+									id="mixTab"
+									key="Mix"
+									icon="sap-icon://Chart-Tree-Map"
+									iconColor="Neutral"
+									text="{i18n>iconTabBar.mix}"
+									visible="{ 
+										parts: ['mainView>/ODATA_SRV', 'mainView>/IS_MIXED', 'mainView>/IS_HIERARCHY'],
+										formatter:'.formatter.hideMixTab' 
+									}"/>
+						</items>
+					</IconTabBar>
+					</ScrollContainer>
+				</l:flexContent>
+			</l:FixFlex>
+		</content>
+		<footer>
+			<Toolbar>
+				<ToolbarSpacer/>
+				<Text
+						text="© Siemens AG 2016 - 2017"/>
+				<Link
+						text="v3.1.0"
+						target="_blank"
+						href="https://wiki.siemens.com/x/u4W4Aw"/>
+			</Toolbar>
+		</footer>
+	</Page>
+</mvc:View>

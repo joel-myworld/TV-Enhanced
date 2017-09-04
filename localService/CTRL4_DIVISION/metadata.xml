@@ -1,0 +1,21 @@
+<edmx:Edmx xmlns:edmx="http://schemas.microsoft.com/ado/2007/06/edmx" Version="1.0">
+	<edmx:DataServices xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" m:DataServiceVersion="2.0">
+		<Schema xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices" xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns="http://schemas.microsoft.com/ado/2008/09/edm"
+			Namespace="siemens.COMMON_DEV.TableViewer3.xs.services.staticFilters.CTRL4_DIVISION">
+			<EntityType Name="DataType">
+				<Key>
+					<PropertyRef Name="Value" />
+				</Key>
+				<Property Name="Id" Type="Edm.Int32" Nullable="false" />
+				<Property Name="Value" Type="Edm.String" Nullable="false" MaxLength="100" />
+				<Property Name="Column" Type="Edm.String" MaxLength="100" />
+				<Property Name="Operator" Type="Edm.String" MaxLength="10" />
+				<Property Name="Option1" Type="Edm.String" MaxLength="100" />
+				<Property Name="Option2" Type="Edm.String" MaxLength="100" />
+			</EntityType>
+			<EntityContainer Name="CTRL4_DIVISION" m:IsDefaultEntityContainer="true">
+				<EntitySet Name="Data" EntityType="siemens.COMMON_DEV.TableViewer3.xs.services.staticFilters.CTRL4_DIVISION.DataType" />
+			</EntityContainer>
+		</Schema>
+	</edmx:DataServices>
+</edmx:Edmx>

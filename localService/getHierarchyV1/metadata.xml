@@ -1,0 +1,61 @@
+<edmx:Edmx xmlns:edmx="http://schemas.microsoft.com/ado/2007/06/edmx" Version="1.0">
+	<edmx:DataServices xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" m:DataServiceVersion="2.0">
+		<Schema xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices" xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns="http://schemas.microsoft.com/ado/2008/09/edm"
+			Namespace="siemens.COMMON_DEV.TableViewer3.xs.services.data.getHierarchyV1">
+			<EntityType Name="DataType">
+				<Key>
+					<PropertyRef Name="ID" />
+				</Key>
+				<Property Name="ID" Type="Edm.String" Nullable="false" MaxLength="2147483647" />
+				<Property Name="QUERY_NODE" Type="Edm.String" MaxLength="200" />
+				<Property Name="QUERY_NODE_NAME" Type="Edm.String" MaxLength="800" />
+				<Property Name="PRED_NODE" Type="Edm.String" MaxLength="200" />
+				<Property Name="LEVEL" Type="Edm.Int32" />
+				<Property Name="IS_LEAF" Type="Edm.Byte" />
+				<Property Name="PATH" Type="Edm.String" MaxLength="1000" />
+				<Property Name="LEAF_NAME" Type="Edm.String" MaxLength="200" />
+				<Property Name="BELEGDATUM" Type="Edm.DateTime" />
+				<Property Name="BELEGNR" Type="Edm.String" MaxLength="50" />
+				<Property Name="BETRAG_HAUSWAEHRUNG" Type="Edm.Double" />
+				<Property Name="BETRAG_FREMDWAEHRUNG" Type="Edm.Double" />
+				<Property Name="CITY" Type="Edm.String" MaxLength="50" />
+				<Property Name="COMPANY_NAME" Type="Edm.String" MaxLength="100" />
+				<Property Name="COUNTRY" Type="Edm.String" MaxLength="100" />
+				<Property Name="FREMDWAEHRUNG" Type="Edm.String" MaxLength="10" />
+				<Property Name="HAUSWAEHRUNG" Type="Edm.String" MaxLength="10" />
+				<Property Name="PERIOD" Type="Edm.String" MaxLength="10" />
+				<Property Name="ARE" Type="Edm.String" MaxLength="5" />
+				<Property Name="DUE_LE10" Type="Edm.Double" />
+				<Property Name="DUE_11_30" Type="Edm.Double" />
+				<Property Name="DUE_91_180" Type="Edm.Double" />
+				<Property Name="DUE_181_360" Type="Edm.Double" />
+				<Property Name="DUE_361_720" Type="Edm.Double" />
+				<Property Name="DUE_GT720" Type="Edm.Double" />
+			</EntityType>
+			<EntityType Name="HierarchyData_QUERY_NODE_NAMEType">
+				<Key>
+					<PropertyRef Name="ID" />
+				</Key>
+				<Property Name="ID" Type="Edm.String" Nullable="false" MaxLength="2147483647" />
+				<Property Name="QUERY_NODE" Type="Edm.String" MaxLength="5000" />
+				<Property Name="RESULT_NODE" Type="Edm.String" MaxLength="5000" />
+				<Property Name="PRED_NODE" Type="Edm.String" MaxLength="5000" />
+				<Property Name="LEVEL" Type="Edm.Int32" />
+				<Property Name="LEVEL_NAME" Type="Edm.String" MaxLength="5000" />
+				<Property Name="ORDINAL" Type="Edm.Int32" />
+				<Property Name="DISTANCE" Type="Edm.Int32" />
+				<Property Name="IS_LEAF" Type="Edm.Int32" />
+				<Property Name="IS_CYCLE" Type="Edm.Int32" />
+				<Property Name="QUERY_NODE_NAME" Type="Edm.String" MaxLength="5000" />
+				<Property Name="RESULT_NODE_NAME" Type="Edm.String" MaxLength="5000" />
+				<Property Name="PATH" Type="Edm.String" MaxLength="5000" />
+				<Property Name="PARENTS" Type="Edm.String" MaxLength="5000" />
+				<Property Name="CHILDREN" Type="Edm.String" MaxLength="5000" />
+			</EntityType>
+			<EntityContainer Name="getHierarchyV1" m:IsDefaultEntityContainer="true">
+				<EntitySet Name="Data" EntityType="siemens.COMMON_DEV.TableViewer3.xs.services.data.getHierarchyV1.DataType" />
+				<EntitySet Name="HierarchyData_QUERY_NODE_NAME" EntityType="siemens.COMMON_DEV.TableViewer3.xs.services.data.getHierarchyV1.HierarchyData_QUERY_NODE_NAMEType" />
+			</EntityContainer>
+		</Schema>
+	</edmx:DataServices>
+</edmx:Edmx>

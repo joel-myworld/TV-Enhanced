@@ -1,0 +1,19 @@
+<core:FragmentDefinition
+                        xmlns:m="sap.m"
+                        xmlns="sap.ui.table"
+                        xmlns:core="sap.ui.core">
+    <Table  
+            id="siemensUiDetailsTable"
+			editable="false"
+			enableBusyIndicator="true"
+			busy="true"
+			busyIndicatorDelay="0">
+		<toolbar>
+			<m:Toolbar 
+                        design="Transparent">
+				<m:Title 
+                        id="siemensUiDetailsTableTitle"/>
+			</m:Toolbar>
+		</toolbar> 
+	</Table> 
+</core:FragmentDefinition>

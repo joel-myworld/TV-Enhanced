@@ -1,0 +1,772 @@
+{
+	"d": {
+		"results": [{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.xs.services.tableViewerOData.variants.UserListType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/xs/services/tableViewerOData/variants.xsodata/UserList('37248712255228001')"
+			},
+			"ID": "37248712255228001",
+			"USER_NAME": "Z0000D0R"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.xs.services.tableViewerOData.variants.UserListType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/xs/services/tableViewerOData/variants.xsodata/UserList('37248712255228002')"
+			},
+			"ID": "37248712255228002",
+			"USER_NAME": "Z00019KD"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.xs.services.tableViewerOData.variants.UserListType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/xs/services/tableViewerOData/variants.xsodata/UserList('37248712255228003')"
+			},
+			"ID": "37248712255228003",
+			"USER_NAME": "Z0001ICC"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.xs.services.tableViewerOData.variants.UserListType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/xs/services/tableViewerOData/variants.xsodata/UserList('37248712255228004')"
+			},
+			"ID": "37248712255228004",
+			"USER_NAME": "Z0001ZSG"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.xs.services.tableViewerOData.variants.UserListType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/xs/services/tableViewerOData/variants.xsodata/UserList('37248712255228005')"
+			},
+			"ID": "37248712255228005",
+			"USER_NAME": "Z000264A"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.xs.services.tableViewerOData.variants.UserListType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/xs/services/tableViewerOData/variants.xsodata/UserList('37248712255228006')"
+			},
+			"ID": "37248712255228006",
+			"USER_NAME": "Z0002VHE"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.xs.services.tableViewerOData.variants.UserListType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/xs/services/tableViewerOData/variants.xsodata/UserList('37248712255228007')"
+			},
+			"ID": "37248712255228007",
+			"USER_NAME": "Z0003RYI"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.xs.services.tableViewerOData.variants.UserListType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/xs/services/tableViewerOData/variants.xsodata/UserList('37248712255228008')"
+			},
+			"ID": "37248712255228008",
+			"USER_NAME": "Z0004NBZ"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.xs.services.tableViewerOData.variants.UserListType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/xs/services/tableViewerOData/variants.xsodata/UserList('37248712255228009')"
+			},
+			"ID": "37248712255228009",
+			"USER_NAME": "Z0004O5P"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.xs.services.tableViewerOData.variants.UserListType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/xs/services/tableViewerOData/variants.xsodata/UserList('372487122552280010')"
+			},
+			"ID": "372487122552280010",
+			"USER_NAME": "Z000591E"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.xs.services.tableViewerOData.variants.UserListType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/xs/services/tableViewerOData/variants.xsodata/UserList('372487122552280011')"
+			},
+			"ID": "372487122552280011",
+			"USER_NAME": "Z0005TBH"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.xs.services.tableViewerOData.variants.UserListType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/xs/services/tableViewerOData/variants.xsodata/UserList('372487122552280012')"
+			},
+			"ID": "372487122552280012",
+			"USER_NAME": "Z00060RK"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.xs.services.tableViewerOData.variants.UserListType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/xs/services/tableViewerOData/variants.xsodata/UserList('372487122552280013')"
+			},
+			"ID": "372487122552280013",
+			"USER_NAME": "Z000C26R"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.xs.services.tableViewerOData.variants.UserListType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/xs/services/tableViewerOData/variants.xsodata/UserList('372487122552280014')"
+			},
+			"ID": "372487122552280014",
+			"USER_NAME": "Z000DR1H"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.xs.services.tableViewerOData.variants.UserListType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/xs/services/tableViewerOData/variants.xsodata/UserList('372487122552280015')"
+			},
+			"ID": "372487122552280015",
+			"USER_NAME": "Z000DTPX"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.xs.services.tableViewerOData.variants.UserListType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/xs/services/tableViewerOData/variants.xsodata/UserList('372487122552280016')"
+			},
+			"ID": "372487122552280016",
+			"USER_NAME": "Z000EVQL"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.xs.services.tableViewerOData.variants.UserListType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/xs/services/tableViewerOData/variants.xsodata/UserList('372487122552280017')"
+			},
+			"ID": "372487122552280017",
+			"USER_NAME": "Z000EY9D"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.xs.services.tableViewerOData.variants.UserListType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/xs/services/tableViewerOData/variants.xsodata/UserList('372487122552280018')"
+			},
+			"ID": "372487122552280018",
+			"USER_NAME": "Z000FOGH"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.xs.services.tableViewerOData.variants.UserListType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/xs/services/tableViewerOData/variants.xsodata/UserList('372487122552280019')"
+			},
+			"ID": "372487122552280019",
+			"USER_NAME": "Z000GHKT"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.xs.services.tableViewerOData.variants.UserListType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/xs/services/tableViewerOData/variants.xsodata/UserList('372487122552280020')"
+			},
+			"ID": "372487122552280020",
+			"USER_NAME": "Z000KA3F"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.xs.services.tableViewerOData.variants.UserListType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/xs/services/tableViewerOData/variants.xsodata/UserList('372487122552280021')"
+			},
+			"ID": "372487122552280021",
+			"USER_NAME": "Z000MRXV"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.xs.services.tableViewerOData.variants.UserListType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/xs/services/tableViewerOData/variants.xsodata/UserList('372487122552280022')"
+			},
+			"ID": "372487122552280022",
+			"USER_NAME": "Z000R73H"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.xs.services.tableViewerOData.variants.UserListType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/xs/services/tableViewerOData/variants.xsodata/UserList('372487122552280023')"
+			},
+			"ID": "372487122552280023",
+			"USER_NAME": "Z001MDUR"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.xs.services.tableViewerOData.variants.UserListType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/xs/services/tableViewerOData/variants.xsodata/UserList('372487122552280024')"
+			},
+			"ID": "372487122552280024",
+			"USER_NAME": "Z001NZTU"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.xs.services.tableViewerOData.variants.UserListType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/xs/services/tableViewerOData/variants.xsodata/UserList('372487122552280025')"
+			},
+			"ID": "372487122552280025",
+			"USER_NAME": "Z001P9ZY"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.xs.services.tableViewerOData.variants.UserListType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/xs/services/tableViewerOData/variants.xsodata/UserList('372487122552280026')"
+			},
+			"ID": "372487122552280026",
+			"USER_NAME": "Z001PMDR"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.xs.services.tableViewerOData.variants.UserListType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/xs/services/tableViewerOData/variants.xsodata/UserList('372487122552280027')"
+			},
+			"ID": "372487122552280027",
+			"USER_NAME": "Z001WMSH"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.xs.services.tableViewerOData.variants.UserListType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/xs/services/tableViewerOData/variants.xsodata/UserList('372487122552280028')"
+			},
+			"ID": "372487122552280028",
+			"USER_NAME": "Z001Z4VH"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.xs.services.tableViewerOData.variants.UserListType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/xs/services/tableViewerOData/variants.xsodata/UserList('372487122552280029')"
+			},
+			"ID": "372487122552280029",
+			"USER_NAME": "Z001Z4VS"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.xs.services.tableViewerOData.variants.UserListType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/xs/services/tableViewerOData/variants.xsodata/UserList('372487122552280030')"
+			},
+			"ID": "372487122552280030",
+			"USER_NAME": "Z0020N6X"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.xs.services.tableViewerOData.variants.UserListType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/xs/services/tableViewerOData/variants.xsodata/UserList('372487122552280031')"
+			},
+			"ID": "372487122552280031",
+			"USER_NAME": "Z002100A"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.xs.services.tableViewerOData.variants.UserListType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/xs/services/tableViewerOData/variants.xsodata/UserList('372487122552280032')"
+			},
+			"ID": "372487122552280032",
+			"USER_NAME": "Z00213HE"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.xs.services.tableViewerOData.variants.UserListType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/xs/services/tableViewerOData/variants.xsodata/UserList('372487122552280033')"
+			},
+			"ID": "372487122552280033",
+			"USER_NAME": "Z00213HE_RESTR"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.xs.services.tableViewerOData.variants.UserListType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/xs/services/tableViewerOData/variants.xsodata/UserList('372487122552280034')"
+			},
+			"ID": "372487122552280034",
+			"USER_NAME": "Z0022A5S"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.xs.services.tableViewerOData.variants.UserListType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/xs/services/tableViewerOData/variants.xsodata/UserList('372487122552280035')"
+			},
+			"ID": "372487122552280035",
+			"USER_NAME": "Z002S61S"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.xs.services.tableViewerOData.variants.UserListType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/xs/services/tableViewerOData/variants.xsodata/UserList('372487122552280036')"
+			},
+			"ID": "372487122552280036",
+			"USER_NAME": "Z002UPXU"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.xs.services.tableViewerOData.variants.UserListType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/xs/services/tableViewerOData/variants.xsodata/UserList('372487122552280037')"
+			},
+			"ID": "372487122552280037",
+			"USER_NAME": "Z002XF5N"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.xs.services.tableViewerOData.variants.UserListType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/xs/services/tableViewerOData/variants.xsodata/UserList('372487122552280038')"
+			},
+			"ID": "372487122552280038",
+			"USER_NAME": "Z003DJCC"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.xs.services.tableViewerOData.variants.UserListType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/xs/services/tableViewerOData/variants.xsodata/UserList('372487122552280039')"
+			},
+			"ID": "372487122552280039",
+			"USER_NAME": "Z003H2EE"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.xs.services.tableViewerOData.variants.UserListType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/xs/services/tableViewerOData/variants.xsodata/UserList('372487122552280040')"
+			},
+			"ID": "372487122552280040",
+			"USER_NAME": "Z003H5EP"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.xs.services.tableViewerOData.variants.UserListType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/xs/services/tableViewerOData/variants.xsodata/UserList('372487122552280041')"
+			},
+			"ID": "372487122552280041",
+			"USER_NAME": "Z003H69S"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.xs.services.tableViewerOData.variants.UserListType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/xs/services/tableViewerOData/variants.xsodata/UserList('372487122552280042')"
+			},
+			"ID": "372487122552280042",
+			"USER_NAME": "Z003HRFZ"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.xs.services.tableViewerOData.variants.UserListType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/xs/services/tableViewerOData/variants.xsodata/UserList('372487122552280043')"
+			},
+			"ID": "372487122552280043",
+			"USER_NAME": "Z003HSTZ"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.xs.services.tableViewerOData.variants.UserListType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/xs/services/tableViewerOData/variants.xsodata/UserList('372487122552280044')"
+			},
+			"ID": "372487122552280044",
+			"USER_NAME": "Z003HTXY"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.xs.services.tableViewerOData.variants.UserListType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/xs/services/tableViewerOData/variants.xsodata/UserList('372487122552280045')"
+			},
+			"ID": "372487122552280045",
+			"USER_NAME": "Z003HU5T"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.xs.services.tableViewerOData.variants.UserListType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/xs/services/tableViewerOData/variants.xsodata/UserList('372487122552280046')"
+			},
+			"ID": "372487122552280046",
+			"USER_NAME": "Z003JWWD"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.xs.services.tableViewerOData.variants.UserListType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/xs/services/tableViewerOData/variants.xsodata/UserList('372487122552280047')"
+			},
+			"ID": "372487122552280047",
+			"USER_NAME": "Z003MB7T"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.xs.services.tableViewerOData.variants.UserListType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/xs/services/tableViewerOData/variants.xsodata/UserList('372487122552280048')"
+			},
+			"ID": "372487122552280048",
+			"USER_NAME": "Z003MCBW"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.xs.services.tableViewerOData.variants.UserListType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/xs/services/tableViewerOData/variants.xsodata/UserList('372487122552280049')"
+			},
+			"ID": "372487122552280049",
+			"USER_NAME": "Z003MEZD"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.xs.services.tableViewerOData.variants.UserListType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/xs/services/tableViewerOData/variants.xsodata/UserList('372487122552280050')"
+			},
+			"ID": "372487122552280050",
+			"USER_NAME": "Z003MNYU"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.xs.services.tableViewerOData.variants.UserListType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/xs/services/tableViewerOData/variants.xsodata/UserList('372487122552280051')"
+			},
+			"ID": "372487122552280051",
+			"USER_NAME": "Z003MNYW"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.xs.services.tableViewerOData.variants.UserListType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/xs/services/tableViewerOData/variants.xsodata/UserList('372487122552280052')"
+			},
+			"ID": "372487122552280052",
+			"USER_NAME": "Z003MSHX"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.xs.services.tableViewerOData.variants.UserListType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/xs/services/tableViewerOData/variants.xsodata/UserList('372487122552280053')"
+			},
+			"ID": "372487122552280053",
+			"USER_NAME": "Z003MSHZ"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.xs.services.tableViewerOData.variants.UserListType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/xs/services/tableViewerOData/variants.xsodata/UserList('372487122552280054')"
+			},
+			"ID": "372487122552280054",
+			"USER_NAME": "Z003MSJA"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.xs.services.tableViewerOData.variants.UserListType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/xs/services/tableViewerOData/variants.xsodata/UserList('372487122552280055')"
+			},
+			"ID": "372487122552280055",
+			"USER_NAME": "Z003MSJB"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.xs.services.tableViewerOData.variants.UserListType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/xs/services/tableViewerOData/variants.xsodata/UserList('372487122552280056')"
+			},
+			"ID": "372487122552280056",
+			"USER_NAME": "Z003MSJC"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.xs.services.tableViewerOData.variants.UserListType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/xs/services/tableViewerOData/variants.xsodata/UserList('372487122552280057')"
+			},
+			"ID": "372487122552280057",
+			"USER_NAME": "Z003MSJD"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.xs.services.tableViewerOData.variants.UserListType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/xs/services/tableViewerOData/variants.xsodata/UserList('372487122552280058')"
+			},
+			"ID": "372487122552280058",
+			"USER_NAME": "Z003MSJE"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.xs.services.tableViewerOData.variants.UserListType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/xs/services/tableViewerOData/variants.xsodata/UserList('372487122552280059')"
+			},
+			"ID": "372487122552280059",
+			"USER_NAME": "Z003MSKV"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.xs.services.tableViewerOData.variants.UserListType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/xs/services/tableViewerOData/variants.xsodata/UserList('372487122552280060')"
+			},
+			"ID": "372487122552280060",
+			"USER_NAME": "Z003MSKW"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.xs.services.tableViewerOData.variants.UserListType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/xs/services/tableViewerOData/variants.xsodata/UserList('372487122552280061')"
+			},
+			"ID": "372487122552280061",
+			"USER_NAME": "Z003MTAM"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.xs.services.tableViewerOData.variants.UserListType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/xs/services/tableViewerOData/variants.xsodata/UserList('372487122552280062')"
+			},
+			"ID": "372487122552280062",
+			"USER_NAME": "Z003MTAN"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.xs.services.tableViewerOData.variants.UserListType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/xs/services/tableViewerOData/variants.xsodata/UserList('372487122552280063')"
+			},
+			"ID": "372487122552280063",
+			"USER_NAME": "Z003MVRT"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.xs.services.tableViewerOData.variants.UserListType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/xs/services/tableViewerOData/variants.xsodata/UserList('372487122552280064')"
+			},
+			"ID": "372487122552280064",
+			"USER_NAME": "Z003MZED"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.xs.services.tableViewerOData.variants.UserListType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/xs/services/tableViewerOData/variants.xsodata/UserList('372487122552280065')"
+			},
+			"ID": "372487122552280065",
+			"USER_NAME": "Z003N17Z"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.xs.services.tableViewerOData.variants.UserListType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/xs/services/tableViewerOData/variants.xsodata/UserList('372487122552280066')"
+			},
+			"ID": "372487122552280066",
+			"USER_NAME": "Z003N18A"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.xs.services.tableViewerOData.variants.UserListType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/xs/services/tableViewerOData/variants.xsodata/UserList('372487122552280067')"
+			},
+			"ID": "372487122552280067",
+			"USER_NAME": "Z003N18R"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.xs.services.tableViewerOData.variants.UserListType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/xs/services/tableViewerOData/variants.xsodata/UserList('372487122552280068')"
+			},
+			"ID": "372487122552280068",
+			"USER_NAME": "Z003N18W"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.xs.services.tableViewerOData.variants.UserListType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/xs/services/tableViewerOData/variants.xsodata/UserList('372487122552280069')"
+			},
+			"ID": "372487122552280069",
+			"USER_NAME": "Z003N18Z"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.xs.services.tableViewerOData.variants.UserListType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/xs/services/tableViewerOData/variants.xsodata/UserList('372487122552280070')"
+			},
+			"ID": "372487122552280070",
+			"USER_NAME": "Z003N19K"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.xs.services.tableViewerOData.variants.UserListType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/xs/services/tableViewerOData/variants.xsodata/UserList('372487122552280071')"
+			},
+			"ID": "372487122552280071",
+			"USER_NAME": "Z003N2UZ"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.xs.services.tableViewerOData.variants.UserListType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/xs/services/tableViewerOData/variants.xsodata/UserList('372487122552280072')"
+			},
+			"ID": "372487122552280072",
+			"USER_NAME": "Z003N2VH"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.xs.services.tableViewerOData.variants.UserListType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/xs/services/tableViewerOData/variants.xsodata/UserList('372487122552280073')"
+			},
+			"ID": "372487122552280073",
+			"USER_NAME": "Z003N2VJ"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.xs.services.tableViewerOData.variants.UserListType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/xs/services/tableViewerOData/variants.xsodata/UserList('372487122552280074')"
+			},
+			"ID": "372487122552280074",
+			"USER_NAME": "Z003N68M"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.xs.services.tableViewerOData.variants.UserListType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/xs/services/tableViewerOData/variants.xsodata/UserList('372487122552280075')"
+			},
+			"ID": "372487122552280075",
+			"USER_NAME": "Z003N76U"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.xs.services.tableViewerOData.variants.UserListType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/xs/services/tableViewerOData/variants.xsodata/UserList('372487122552280076')"
+			},
+			"ID": "372487122552280076",
+			"USER_NAME": "Z003ND2P"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.xs.services.tableViewerOData.variants.UserListType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/xs/services/tableViewerOData/variants.xsodata/UserList('372487122552280077')"
+			},
+			"ID": "372487122552280077",
+			"USER_NAME": "Z003ND2U"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.xs.services.tableViewerOData.variants.UserListType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/xs/services/tableViewerOData/variants.xsodata/UserList('372487122552280078')"
+			},
+			"ID": "372487122552280078",
+			"USER_NAME": "Z003NJBM"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.xs.services.tableViewerOData.variants.UserListType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/xs/services/tableViewerOData/variants.xsodata/UserList('372487122552280079')"
+			},
+			"ID": "372487122552280079",
+			"USER_NAME": "Z003NJBS"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.xs.services.tableViewerOData.variants.UserListType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/xs/services/tableViewerOData/variants.xsodata/UserList('372487122552280080')"
+			},
+			"ID": "372487122552280080",
+			"USER_NAME": "Z003NK8W"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.xs.services.tableViewerOData.variants.UserListType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/xs/services/tableViewerOData/variants.xsodata/UserList('372487122552280081')"
+			},
+			"ID": "372487122552280081",
+			"USER_NAME": "Z003NK8Y"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.xs.services.tableViewerOData.variants.UserListType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/xs/services/tableViewerOData/variants.xsodata/UserList('372487122552280082')"
+			},
+			"ID": "372487122552280082",
+			"USER_NAME": "Z003NW1X"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.xs.services.tableViewerOData.variants.UserListType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/xs/services/tableViewerOData/variants.xsodata/UserList('372487122552280083')"
+			},
+			"ID": "372487122552280083",
+			"USER_NAME": "Z003P10K"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.xs.services.tableViewerOData.variants.UserListType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/xs/services/tableViewerOData/variants.xsodata/UserList('372487122552280084')"
+			},
+			"ID": "372487122552280084",
+			"USER_NAME": "Z003P57F"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.xs.services.tableViewerOData.variants.UserListType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/xs/services/tableViewerOData/variants.xsodata/UserList('372487122552280085')"
+			},
+			"ID": "372487122552280085",
+			"USER_NAME": "Z003PK8D"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.xs.services.tableViewerOData.variants.UserListType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/xs/services/tableViewerOData/variants.xsodata/UserList('372487122552280086')"
+			},
+			"ID": "372487122552280086",
+			"USER_NAME": "Z003PXHF"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.xs.services.tableViewerOData.variants.UserListType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/xs/services/tableViewerOData/variants.xsodata/UserList('372487122552280087')"
+			},
+			"ID": "372487122552280087",
+			"USER_NAME": "Z003R0FB"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.xs.services.tableViewerOData.variants.UserListType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/xs/services/tableViewerOData/variants.xsodata/UserList('372487122552280088')"
+			},
+			"ID": "372487122552280088",
+			"USER_NAME": "Z003R0JT"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.xs.services.tableViewerOData.variants.UserListType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/xs/services/tableViewerOData/variants.xsodata/UserList('372487122552280089')"
+			},
+			"ID": "372487122552280089",
+			"USER_NAME": "Z003RE3Z"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.xs.services.tableViewerOData.variants.UserListType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/xs/services/tableViewerOData/variants.xsodata/UserList('372487122552280090')"
+			},
+			"ID": "372487122552280090",
+			"USER_NAME": "Z003RMSB"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.xs.services.tableViewerOData.variants.UserListType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/xs/services/tableViewerOData/variants.xsodata/UserList('372487122552280091')"
+			},
+			"ID": "372487122552280091",
+			"USER_NAME": "ZSAP_GUEL"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.xs.services.tableViewerOData.variants.UserListType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/xs/services/tableViewerOData/variants.xsodata/UserList('372487122552280092')"
+			},
+			"ID": "372487122552280092",
+			"USER_NAME": "ZSAP_TOERPE"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.xs.services.tableViewerOData.variants.UserListType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/xs/services/tableViewerOData/variants.xsodata/UserList('372487122552280093')"
+			},
+			"ID": "372487122552280093",
+			"USER_NAME": "ZZZZZ53A"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.xs.services.tableViewerOData.variants.UserListType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/xs/services/tableViewerOData/variants.xsodata/UserList('372487122552280094')"
+			},
+			"ID": "372487122552280094",
+			"USER_NAME": "ZZZZZL83"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.xs.services.tableViewerOData.variants.UserListType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/xs/services/tableViewerOData/variants.xsodata/UserList('372487122552280095')"
+			},
+			"ID": "372487122552280095",
+			"USER_NAME": "Z_ADM_USER"
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.xs.services.tableViewerOData.variants.UserListType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/xs/services/tableViewerOData/variants.xsodata/UserList('372487122552280096')"
+			},
+			"ID": "372487122552280096",
+			"USER_NAME": "Z_ADM_USER2"
+		}]
+	}
+}

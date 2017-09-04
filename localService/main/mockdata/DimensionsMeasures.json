@@ -1,0 +1,161 @@
+{
+	"d": {
+		"results": [{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.TableViewer3.xs.services.Main.DimensionsMeasuresType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/Main.xsodata/DimensionsMeasures(CTRLID='CTRL1',CHARTID='c1',COLUMN='CALMONTH')"
+			},
+			"CTRLID": "CTRL1",
+			"CHARTID": "c1",
+			"COLUMN": "CALMONTH",
+			"LABEL": "Calmonth",
+			"IS_KFG": 0,
+			"CTYPE": 17,
+			"SORTORDER": null
+		}, {
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.TableViewer3.xs.services.Main.DimensionsMeasuresType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/Main.xsodata/DimensionsMeasures(CTRLID='CTRL1',CHARTID='c1',COLUMN='ERDAT')"
+			},
+			"CTRLID": "CTRL1",
+			"CHARTID": "c1",
+			"COLUMN": "ERDAT",
+			"LABEL": "Creation date",
+			"IS_KFG": 0,
+			"CTYPE": 15,
+			"SORTORDER": null
+		}, {
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.TableViewer3.xs.services.Main.DimensionsMeasuresType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/Main.xsodata/DimensionsMeasures(CTRLID='CTRL1',CHARTID='c1',COLUMN='ERDAT_DATE')"
+			},
+			"CTRLID": "CTRL1",
+			"CHARTID": "c1",
+			"COLUMN": "ERDAT_DATE",
+			"LABEL": "Creation date 2",
+			"IS_KFG": 0,
+			"CTYPE": 20,
+			"SORTORDER": null
+		}, {
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.TableViewer3.xs.services.Main.DimensionsMeasuresType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/Main.xsodata/DimensionsMeasures(CTRLID='CTRL1',CHARTID='c1',COLUMN='LOCAT_CAL')"
+			},
+			"CTRLID": "CTRL1",
+			"CHARTID": "c1",
+			"COLUMN": "LOCAT_CAL",
+			"LABEL": "Location",
+			"IS_KFG": 2,
+			"CTYPE": 11,
+			"SORTORDER": null
+		}, {
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.TableViewer3.xs.services.Main.DimensionsMeasuresType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/Main.xsodata/DimensionsMeasures(CTRLID='CTRL1',CHARTID='c1',COLUMN='NUCAF')"
+			},
+			"CTRLID": "CTRL1",
+			"CHARTID": "c1",
+			"COLUMN": "NUCAF",
+			"LABEL": "Number of candidate failed",
+			"IS_KFG": 1,
+			"CTYPE": 3,
+			"SORTORDER": null
+		}, {
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.TableViewer3.xs.services.Main.DimensionsMeasuresType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/Main.xsodata/DimensionsMeasures(CTRLID='CTRL1',CHARTID='c1',COLUMN='SELEC')"
+			},
+			"CTRLID": "CTRL1",
+			"CHARTID": "c1",
+			"COLUMN": "SELEC",
+			"LABEL": "Selec",
+			"IS_KFG": 0,
+			"CTYPE": 11,
+			"SORTORDER": null
+		}, {
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.TableViewer3.xs.services.Main.DimensionsMeasuresType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/Main.xsodata/DimensionsMeasures(CTRLID='CTRL1',CHARTID='c1',COLUMN='TESTL')"
+			},
+			"CTRLID": "CTRL1",
+			"CHARTID": "c1",
+			"COLUMN": "TESTL",
+			"LABEL": "Material",
+			"IS_KFG": 0,
+			"CTYPE": 11,
+			"SORTORDER": null
+		}, {
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.TableViewer3.xs.services.Main.DimensionsMeasuresType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/Main.xsodata/DimensionsMeasures(CTRLID='CTRL1',CHARTID='c2',COLUMN='CALMONTH')"
+			},
+			"CTRLID": "CTRL1",
+			"CHARTID": "c2",
+			"COLUMN": "CALMONTH",
+			"LABEL": "Calmonth",
+			"IS_KFG": 0,
+			"CTYPE": 17,
+			"SORTORDER": null
+		}, {
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.TableViewer3.xs.services.Main.DimensionsMeasuresType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/Main.xsodata/DimensionsMeasures(CTRLID='CTRL1',CHARTID='c2',COLUMN='ERDAT_DATE')"
+			},
+			"CTRLID": "CTRL1",
+			"CHARTID": "c2",
+			"COLUMN": "ERDAT_DATE",
+			"LABEL": "Creation date 2",
+			"IS_KFG": 2,
+			"CTYPE": 20,
+			"SORTORDER": null
+		}, {
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.TableViewer3.xs.services.Main.DimensionsMeasuresType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/Main.xsodata/DimensionsMeasures(CTRLID='CTRL1',CHARTID='c2',COLUMN='LOCAT_CAL')"
+			},
+			"CTRLID": "CTRL1",
+			"CHARTID": "c2",
+			"COLUMN": "LOCAT_CAL",
+			"LABEL": "Location",
+			"IS_KFG": null,
+			"CTYPE": 11,
+			"SORTORDER": null
+		}, {
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.TableViewer3.xs.services.Main.DimensionsMeasuresType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/Main.xsodata/DimensionsMeasures(CTRLID='CTRL1',CHARTID='c2',COLUMN='NUCAF')"
+			},
+			"CTRLID": "CTRL1",
+			"CHARTID": "c2",
+			"COLUMN": "NUCAF",
+			"LABEL": "Number of candidate failed",
+			"IS_KFG": 1,
+			"CTYPE": 3,
+			"SORTORDER": null
+		}, {
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.TableViewer3.xs.services.Main.DimensionsMeasuresType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/Main.xsodata/DimensionsMeasures(CTRLID='CTRL1',CHARTID='c2',COLUMN='SELEC')"
+			},
+			"CTRLID": "CTRL1",
+			"CHARTID": "c2",
+			"COLUMN": "SELEC",
+			"LABEL": "Selec",
+			"IS_KFG": 2,
+			"CTYPE": 11,
+			"SORTORDER": null
+		}, {
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.TableViewer3.xs.services.Main.DimensionsMeasuresType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/Main.xsodata/DimensionsMeasures(CTRLID='CTRL1',CHARTID='c2',COLUMN='TESTL')"
+			},
+			"CTRLID": "CTRL1",
+			"CHARTID": "c2",
+			"COLUMN": "TESTL",
+			"LABEL": "Material",
+			"IS_KFG": 0,
+			"CTYPE": 11,
+			"SORTORDER": null
+		}]
+	}
+}

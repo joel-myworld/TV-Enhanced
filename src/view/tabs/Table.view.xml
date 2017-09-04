@@ -1,0 +1,85 @@
+<mvc:View
+		xmlns:m="sap.m"
+		xmlns:mvc="sap.ui.core.mvc"
+		xmlns="sap.ui.table"
+		xmlns:core="sap.ui.core"
+		xmlns:l="sap.ui.layout"
+		height="100%"
+		displayBlock="true"
+		controllerName="com.siemens.tableViewer.controller.tabs.Table">
+	<Table
+			id="table"
+			class="sapUiResponsiveContentPadding"
+			enableSelectAll="{= ${mainView>/DRILL_DOWN} !== 1}"
+			selectionMode="{= ${mainView>/DRILL_DOWN} === 1 ? 'MultiToggle' : 'Multi'}"
+			threshold="{= ${mainView>/THRESHOLD} ? ${mainView/THRESHOLD} : '200'}"
+			enableBusyIndicator="false"
+			busy="{tableView>/busy}"
+			busyIndicatorDelay="{tableView>/delay}"
+			rowSelectionChange="onRowSelectionChange"
+			enableColumnReordering="true"
+			visibleRowCountMode="Auto"
+			columns="{
+				path: 'columnModel>ServiceToColumnConfig/results',
+				templateShareable : false,
+				factory: '._columnFactory',
+				sorter : {
+					path : 'SORTORDER'
+				}
+			}"
+			sort="onSortChange"
+			>
+		<toolbar>
+			<m:OverflowToolbar design="Solid">
+				<m:Title
+						id="title"
+						text="{columnModel>TABLE_TITLE} [{tableView>/rowCount}]"
+						class="sapUiSmallMargin"/>
+				<core:Icon 	
+						src="sap-icon://vertical-grip"
+						visible="{path: 'mainView>/DRILL_DOWN', formatter: '.formatter.setTrueIfValueEqOne'}"/>
+				<m:Button 	
+						text="{i18n>tbl.showDetails}" 
+						press="onDrillDown"
+						visible="{path: 'mainView>/DRILL_DOWN', formatter: '.formatter.setTrueIfValueEqOne'}"
+						enabled="{tableView>/enableShowDetailsButton}"/>
+				<m:ToolbarSpacer/>
+				<m:OverflowToolbarButton
+						tooltip="{i18n>tbl.cellConfig}"
+						type="Transparent"
+						text="{i18n>tbl.cellConfig}"
+						icon="sap-icon://palette"
+						iconFirst="true"
+						visible="{path: 'mainView>/ADMIN_CELL_COLOR', type: 'com.siemens.tableViewer.model.types.hanaBoolean'}"
+						press="onPressColorConfiguration"/>
+				<core:Icon src="sap-icon://vertical-grip"/>
+				<m:ToggleButton
+						type="Transparent"
+						icon="sap-icon://full-screen"
+						tooltip="{i18n>tbl.fullScreenToggle}"
+						press="onFullScreen"/>
+				<m:OverflowToolbarButton
+						type="Transparent"
+						icon="sap-icon://sort"
+						text="{i18n>tbl.columnSorting}"
+						tooltip="{i18n>tbl.columnSorting}"
+						press="onTableColumnSortingPress"/>
+				<m:OverflowToolbarButton
+						type="Transparent"
+						icon="sap-icon://settings"
+						text="{i18n>tbl.columnSettings}"
+						tooltip="{i18n>tbl.columnSettings}"
+						press="onTableColumnSettingsPress"/>
+				<m:OverflowToolbarButton
+						type="Transparent"
+						text="{i18n>tbl.export}"
+						icon="sap-icon://download"
+						tooltip="{i18n>tbl.export}"
+						press="onTableExport"/>
+			</m:OverflowToolbar>
+		</toolbar>
+	</Table>
+	<l:VerticalLayout 
+					id="siemensUiDetailTableLayout" 
+					visible="false"/>
+</mvc:View>

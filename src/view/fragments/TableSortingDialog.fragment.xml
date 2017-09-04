@@ -1,0 +1,34 @@
+<core:FragmentDefinition 
+						xmlns="sap.m"
+						xmlns:core="sap.ui.core">
+	<P13nDialog
+			id="sortingDialog"
+			ok="onSortingDialogOk"
+			cancel="onSortingDialogCancel"
+			showReset="false"
+			reset="onSortingDialogReset"
+			initialVisiblePanelType="sort">
+		<panels>
+			<P13nSortPanel
+					id="sortPanel"
+					visible="true"
+					type="sort"
+					containerQuery="true"
+					class="sapUiResponsiveMargin"
+					items="{path: '/items'}"
+					addSortItem="onTableSortingDialogAddSortItem"
+					removeSortItem="onTableSortingDialogRemove"
+					sortItems="{path: '/sortItems'}">
+				<P13nItem 
+						columnKey="{COLUMN}" 
+						text="{LABEL}"/>
+				<sortItems>
+					<P13nSortItem 
+								key="{COLUMN}"
+								columnKey="{COLUMN}"
+								operation="{path: 'COLUMN_SORTING', type: 'com.siemens.tableViewer.model.types.columnSorter'}"/>
+				</sortItems>
+			</P13nSortPanel>
+		</panels>
+	</P13nDialog>
+</core:FragmentDefinition>

@@ -1,0 +1,27 @@
+<mvc:View 
+		xmlns:mvc="sap.ui.core.mvc"
+		controllerName="com.siemens.tableViewer.controller.FilterBar"
+		displayBlock="true"
+		xmlns="sap.ui.comp.filterbar">
+	<FilterBar 
+				id="filterBar"
+			   	busy="{filterBarView>/busy}"
+			   	busyIndicatorDelay="{filterBarView>/delay}"
+			   	clear="onClear"
+			   	search="onSearch"
+			   	showRestoreButton="false"
+			   	considerGroupTitle="true"
+			   	showClearButton="true"
+			   	showClearOnFB="true"
+			   	searchEnabled="true"
+			   	showGoOnFB="false"
+			   	filterItems="{
+				   path: 'filterModel>ServiceToColumnConfig/results',
+				   factory: '._filterItemFactory',
+				   filters: [{
+				   		path: 'FILTER',
+						operator: 'EQ',
+						value1: '1'
+				   }]
+			   	}" />
+</mvc:View>

@@ -1,0 +1,112 @@
+{
+	"d": {
+		"results": [{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.TableViewer3.xs.services.staticFilters.CTRL4_DIVISION.DataType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/staticFilters/CTRL4_DIVISION.xsodata/Data('Div.%20HSC')"
+			},
+			"Id": 1,
+			"Value": "Div. HSC",
+			"Column": "DIVISION",
+			"Operator": "EQ",
+			"Option1": "HSC",
+			"Option2": "\"\t\""
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.TableViewer3.xs.services.staticFilters.CTRL4_DIVISION.DataType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/staticFilters/CTRL4_DIVISION.xsodata/Data('Div.%20SBT')"
+			},
+			"Id": 3,
+			"Value": "Div. SBT",
+			"Column": "DIVISION",
+			"Operator": "EQ",
+			"Option1": "SBT",
+			"Option2": null
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.TableViewer3.xs.services.staticFilters.CTRL4_DIVISION.DataType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/staticFilters/CTRL4_DIVISION.xsodata/Data('Div.%20SDF')"
+			},
+			"Id": 4,
+			"Value": "Div. SDF",
+			"Column": "DIVISION",
+			"Operator": "EQ",
+			"Option1": "SDF",
+			"Option2": null
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.TableViewer3.xs.services.staticFilters.CTRL4_DIVISION.DataType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/staticFilters/CTRL4_DIVISION.xsodata/Data('Div.%20SEM')"
+			},
+			"Id": 5,
+			"Value": "Div. SEM",
+			"Column": "DIVISION",
+			"Operator": "EQ",
+			"Option1": "SEM",
+			"Option2": null
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.TableViewer3.xs.services.staticFilters.CTRL4_DIVISION.DataType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/staticFilters/CTRL4_DIVISION.xsodata/Data('Div.%20SMO')"
+			},
+			"Id": 6,
+			"Value": "Div. SMO",
+			"Column": "DIVISION",
+			"Operator": "EQ",
+			"Option1": "SMO",
+			"Option2": null
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.TableViewer3.xs.services.staticFilters.CTRL4_DIVISION.DataType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/staticFilters/CTRL4_DIVISION.xsodata/Data('Div.%20SPD')"
+			},
+			"Id": 7,
+			"Value": "Div. SPD",
+			"Column": "DIVISION",
+			"Operator": "EQ",
+			"Option1": "SPD",
+			"Option2": null
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.TableViewer3.xs.services.staticFilters.CTRL4_DIVISION.DataType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/staticFilters/CTRL4_DIVISION.xsodata/Data('Div.%20SPG')"
+			},
+			"Id": 2,
+			"Value": "Div. SPG",
+			"Column": "DIVISION",
+			"Operator": "EQ",
+			"Option1": "SPG",
+			"Option2": null
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.TableViewer3.xs.services.staticFilters.CTRL4_DIVISION.DataType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/staticFilters/CTRL4_DIVISION.xsodata/Data('Div.%20SWP')"
+			},
+			"Id": 8,
+			"Value": "Div. SWP",
+			"Column": "DIVISION",
+			"Operator": "EQ",
+			"Option1": "SWP",
+			"Option2": null
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.TableViewer3.xs.services.staticFilters.CTRL4_DIVISION.DataType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/staticFilters/CTRL4_DIVISION.xsodata/Data('Div.%20SXX')"
+			},
+			"Id": 9,
+			"Value": "Div. SXX",
+			"Column": "DIVISION",
+			"Operator": "EQ",
+			"Option1": "SXX",
+			"Option2": null
+		}]
+	}
+}

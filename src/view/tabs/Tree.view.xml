@@ -1,0 +1,49 @@
+<mvc:View 
+		controllerName="com.siemens.tableViewer.controller.tabs.Tree"
+		displayBlock="true"
+		height="100%"
+		xmlns:mvc="sap.ui.core.mvc"
+		xmlns:m="sap.m"
+		xmlns="com.siemens.tableViewer.control">
+	<ExtendedTreeTable
+			id="tree"
+			visibleRowCountMode="Auto"
+			enableSelectAll="false"
+			enableBusyIndicator="true"
+			busy="{treeView>/busy}"
+			busyIndicatorDelay="{treeView>/delay}"
+			columns="{
+				path: 'columnModel>ServiceToColumnConfig/results',
+				templateShareable : false,
+				factory: '.tablesUtilities._columnFactory',
+				sorter : {
+					path : 'SORTORDER'
+				}
+			}">
+		<toolbar>
+			<m:OverflowToolbar design="Solid">
+				<m:Title
+						text="{mainView>/TABLE_TITLE}"
+						class="sapUiSmallMargin"/>
+				<m:ToolbarSpacer/>
+				<m:ToggleButton
+						type="Transparent"
+						icon="sap-icon://full-screen"
+						tooltip="{i18n>tbl.fullScreenToggle}"
+						press="onFullScreen"/>
+				<m:OverflowToolbarButton
+						type="Transparent"
+						icon="sap-icon://settings"
+						text="{i18n>tbl.columnSettings}"
+						tooltip="{i18n>tbl.columnSettings}"
+						press="onTableColumnSettingsPress"/>
+				<m:OverflowToolbarButton
+						type="Transparent"
+						text="{i18n>tbl.export}"
+						icon="sap-icon://download"
+						tooltip="{i18n>tbl.export}"
+						press="onTableExport"/>
+			</m:OverflowToolbar>
+		</toolbar>
+	</ExtendedTreeTable>
+</mvc:View>

@@ -1,0 +1,43 @@
+# Ignore .gitignore and target folders
+src/*/.gitignore
+src/*/target/
+/target
+/dist
+
+# Ignore Eclipse project and settings files
+.classpath
+.settings
+.project
+.externalToolBuilders
+
+# Ignore IntelliJ project and settings files
+.idea
+
+# Ignore temp folders
+grunt/bin
+
+# Ignore npm files/folders
+node_modules
+npm-debug.log
+
+# Ignore bower folder
+bower_components
+
+# Ignore dist folder
+#ui5 resources
+resources
+
+#OSX files
+*.DS_Store
+
+sap-ui-cachebuster-info.json
+extended_runnable_file.html
+.*/extended_runnable_file.html
+visual_ext_index.html
+/webapp/visual_ext_index.html
+UIAdaptation_index.html
+changes_preview.js
+fioriHtmlRunner.html
+.*/fioriHtmlRunner.html
+mock_preview_sapui5.html
+.*/mock_preview_sapui5.html

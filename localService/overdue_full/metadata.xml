@@ -1,0 +1,101 @@
+<edmx:Edmx xmlns:edmx="http://schemas.microsoft.com/ado/2007/06/edmx" Version="1.0">
+	<edmx:DataServices xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" m:DataServiceVersion="2.0">
+		<Schema xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices" xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns="http://schemas.microsoft.com/ado/2008/09/edm"
+			Namespace="siemens.COMMON_DEV.TableViewer3.xs.services.data.overdue_full">
+			<EntityType Name="OverdueFullType">
+				<Key>
+					<PropertyRef Name="ID" />
+				</Key>
+				<Property Name="ID" Type="Edm.String" Nullable="false" MaxLength="2147483647" />
+				<Property Name="BUKRS" Type="Edm.String" MaxLength="120" />
+				<Property Name="ARE" Type="Edm.String" MaxLength="16" />
+				<Property Name="DIVISION" Type="Edm.String" MaxLength="12" />
+				<Property Name="KUNDENNR" Type="Edm.String" MaxLength="40" />
+				<Property Name="DUNS" Type="Edm.String" MaxLength="36" />
+				<Property Name="IFA_NR" Type="Edm.String" MaxLength="40" />
+				<Property Name="KUKLA" Type="Edm.String" MaxLength="1" />
+				<Property Name="BELEGNR" Type="Edm.String" MaxLength="40" />
+				<Property Name="BELEGPOS" Type="Edm.String" MaxLength="12" />
+				<Property Name="BELEGDATUM" Type="Edm.DateTime" />
+				<Property Name="DUE_DATE1" Type="Edm.DateTime" />
+				<Property Name="DUE_DATE2" Type="Edm.DateTime" />
+				<Property Name="DUE_DATE3" Type="Edm.DateTime" />
+				<Property Name="SHKZ_TEXT" Type="Edm.String" MaxLength="4" />
+				<Property Name="ZESSIONS_KZ" Type="Edm.String" MaxLength="8" />
+				<Property Name="MAHNSPERRE" Type="Edm.String" MaxLength="4" />
+				<Property Name="MAHNSPERRE_ORIG" Type="Edm.String" MaxLength="4" />
+				<Property Name="ZAHLSPERRE" Type="Edm.String" MaxLength="4" />
+				<Property Name="PARTNER_PROFIT_CENTER" Type="Edm.String" MaxLength="40" />
+				<Property Name="ARE_NAME" Type="Edm.String" MaxLength="1020" />
+				<Property Name="COMPANY_NAME" Type="Edm.String" MaxLength="160" />
+				<Property Name="COUNTRY" Type="Edm.String" MaxLength="120" />
+				<Property Name="LAND" Type="Edm.String" MaxLength="1020" />
+				<Property Name="CITY" Type="Edm.String" MaxLength="560" />
+				<Property Name="NAME_GU" Type="Edm.String" MaxLength="360" />
+				<Property Name="CITY_GU" Type="Edm.String" MaxLength="480" />
+				<Property Name="COUNTRY_GU" Type="Edm.String" MaxLength="80" />
+				<Property Name="ISIC_GROUP" Type="Edm.String" MaxLength="64" />
+				<Property Name="ISIC_GROUP_DESCR" Type="Edm.String" MaxLength="3200" />
+				<Property Name="CODE_TXT" Type="Edm.String" MaxLength="800" />
+				<Property Name="RATING" Type="Edm.String" MaxLength="8" />
+				<Property Name="RSTGR" Type="Edm.String" MaxLength="12" />
+				<Property Name="RSTGR_TEXT" Type="Edm.String" MaxLength="160" />
+				<Property Name="BILKT" Type="Edm.String" MaxLength="40" />
+				<Property Name="BUNIT" Type="Edm.String" MaxLength="800" />
+				<Property Name="PRCTR" Type="Edm.String" MaxLength="40" />
+				<Property Name="BUS_SEGMENT" Type="Edm.String" MaxLength="800" />
+				<Property Name="BSCHL" Type="Edm.String" MaxLength="8" />
+				<Property Name="HAUSWAEHRUNG" Type="Edm.String" MaxLength="12" />
+				<Property Name="BUS_SUBSEGMENT" Type="Edm.String" MaxLength="800" />
+				<Property Name="FREMDWAEHRUNG" Type="Edm.String" MaxLength="16" />
+				<Property Name="DIVISION6D" Type="Edm.String" MaxLength="800" />
+				<Property Name="BUSUNIT6D" Type="Edm.String" MaxLength="800" />
+				<Property Name="PROJK" Type="Edm.String" MaxLength="32" />
+				<Property Name="POST1" Type="Edm.String" MaxLength="160" />
+				<Property Name="POSID" Type="Edm.String" MaxLength="96" />
+				<Property Name="ARE_COUNTRY_CODE" Type="Edm.String" MaxLength="120" />
+				<Property Name="ARE_COUNTRY" Type="Edm.String" MaxLength="1020" />
+				<Property Name="GSBER" Type="Edm.String" MaxLength="20" />
+				<Property Name="GSBER_NAME" Type="Edm.String" MaxLength="96" />
+				<Property Name="VBELN" Type="Edm.String" MaxLength="40" />
+				<Property Name="IS_ADVANCED_PAYMENT" Type="Edm.String" MaxLength="4000" />
+				<Property Name="PERIOD" Type="Edm.String" MaxLength="28" />
+				<Property Name="LOAD_ID" Type="Edm.Decimal" Precision="23" Scale="0" />
+				<Property Name="SHOW_INITIAL" Type="Edm.Decimal" Precision="1" Scale="0" />
+				<Property Name="INFO" Type="Edm.String" MaxLength="2044" />
+				<Property Name="REPORTING_FLAG" Type="Edm.Double" />
+				<Property Name="DUNS_GU" Type="Edm.Decimal" Precision="9" Scale="0" />
+				<Property Name="BETRAG_FREMDWAEHRUNG" Type="Edm.Double" />
+				<Property Name="BETRAG_HAUSWAEHRUNG" Type="Edm.Decimal" Precision="21" Scale="5" />
+				<Property Name="BETRAG_EUR" Type="Edm.Double" />
+				<Property Name="DUE_90" Type="Edm.Double" />
+				<Property Name="CNT" Type="Edm.Double" />
+				<Property Name="DUE_60" Type="Edm.Double" />
+				<Property Name="DUE_30" Type="Edm.Double" />
+				<Property Name="DUE_0" Type="Edm.Double" />
+				<Property Name="OPEN" Type="Edm.Double" />
+				<Property Name="CNT_90" Type="Edm.Double" />
+				<Property Name="CNT_60" Type="Edm.Double" />
+				<Property Name="CNT_30" Type="Edm.Double" />
+				<Property Name="CNT_0" Type="Edm.Double" />
+				<Property Name="CNT_OPEN" Type="Edm.Double" />
+				<Property Name="DUE_LE10" Type="Edm.Double" />
+				<Property Name="DUE_11_30" Type="Edm.Double" />
+				<Property Name="DUE_181_360" Type="Edm.Double" />
+				<Property Name="DUE_91_180" Type="Edm.Double" />
+				<Property Name="DUE_361_720" Type="Edm.Double" />
+				<Property Name="DUE_GT720" Type="Edm.Double" />
+				<Property Name="CNT_LE10" Type="Edm.Double" />
+				<Property Name="CNT_11_30" Type="Edm.Double" />
+				<Property Name="CNT_91_180" Type="Edm.Double" />
+				<Property Name="CNT_361_720" Type="Edm.Double" />
+				<Property Name="CNT_181_360" Type="Edm.Double" />
+				<Property Name="CNT_GT720" Type="Edm.Double" />
+				<Property Name="CAPITAL_COST" Type="Edm.Double" />
+			</EntityType>
+			<EntityContainer Name="overdue_full" m:IsDefaultEntityContainer="true">
+				<EntitySet Name="OverdueFull" EntityType="siemens.COMMON_DEV.TableViewer3.xs.services.data.overdue_full.OverdueFullType" />
+			</EntityContainer>
+		</Schema>
+	</edmx:DataServices>
+</edmx:Edmx>

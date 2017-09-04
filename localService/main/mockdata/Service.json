@@ -1,0 +1,312 @@
+{
+	"d": {
+		"results": [{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.TableViewer3.xs.services.Main.ServiceType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/Main.xsodata/Service('CTRL1')"
+			},
+			"CTRLID": "CTRL1",
+			"DESCRIPTION": "Title is coming from CTRL2VIEW table",
+			"TABLE_TITLE": "Table Title is Coming from CTRL2VIEW table",
+			"ODATA_SRV": 1,
+			"SERVICE_NAME": "srv1.xsodata",
+			"ENTITY_NAME": "FreeDateCrossPlant",
+			"IS_HIERARCHY": 0,
+			"DATA_SOURCE": "siemens.COMMON_DEV.TEMP/CV_RDE_MAT_FEHLERANZAHL_CROSSPLANT",
+			"THRESHOLD": 200,
+			"CHART_HIDDEN": 0,
+			"VARIANT_HIDDEN": 0,
+			"INPUT_PARAMETERS": 0,
+			"DRILL_DOWN": 2,
+			"DRILL_DOWN_TARGET": "CTRL1",
+			"INTERACTIVE_TABLE": null,
+			"INPUTPARAMS_DIALOG": null,
+			"IS_MIXED": 0,
+			"ServiceToColumnConfig": {
+				"__deferred": {
+					"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/Main.xsodata/Service('CTRL1')/ServiceToColumnConfig"
+				}
+			}
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.TableViewer3.xs.services.Main.ServiceType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/Main.xsodata/Service('CTRL3')"
+			},
+			"CTRLID": "CTRL3",
+			"DESCRIPTION": "Worst Five ({0})",
+			"TABLE_TITLE": null,
+			"ODATA_SRV": 1,
+			"SERVICE_NAME": "srv3.xsodata",
+			"ENTITY_NAME": "WorstFive",
+			"IS_HIERARCHY": 0,
+			"DATA_SOURCE": "siemens.COMMON_DEV.TEMP/CV_RDE_MAT_WORST_FIVE",
+			"THRESHOLD": 200,
+			"CHART_HIDDEN": 0,
+			"VARIANT_HIDDEN": 0,
+			"INPUT_PARAMETERS": 0,
+			"DRILL_DOWN": 0,
+			"DRILL_DOWN_TARGET": null,
+			"INTERACTIVE_TABLE": null,
+			"INPUTPARAMS_DIALOG": null,
+			"IS_MIXED": null,
+			"ServiceToColumnConfig": {
+				"__deferred": {
+					"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/Main.xsodata/Service('CTRL3')/ServiceToColumnConfig"
+				}
+			}
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.TableViewer3.xs.services.Main.ServiceType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/Main.xsodata/Service('CTRL4')"
+			},
+			"CTRLID": "CTRL4",
+			"DESCRIPTION": "Overdue Full ({0})",
+			"TABLE_TITLE": null,
+			"ODATA_SRV": 1,
+			"SERVICE_NAME": "overdue_full.xsodata",
+			"ENTITY_NAME": "OverdueFull",
+			"IS_HIERARCHY": 0,
+			"DATA_SOURCE": "siemens.COMMON_DEV.TEMP/CV_AM_OVERDUE_FULL",
+			"THRESHOLD": 105,
+			"CHART_HIDDEN": 0,
+			"VARIANT_HIDDEN": 0,
+			"INPUT_PARAMETERS": 0,
+			"DRILL_DOWN": 1,
+			"DRILL_DOWN_TARGET": null,
+			"INTERACTIVE_TABLE": null,
+			"INPUTPARAMS_DIALOG": null,
+			"IS_MIXED": null,
+			"ServiceToColumnConfig": {
+				"__deferred": {
+					"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/Main.xsodata/Service('CTRL4')/ServiceToColumnConfig"
+				}
+			}
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.TableViewer3.xs.services.Main.ServiceType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/Main.xsodata/Service('CTRL5')"
+			},
+			"CTRLID": "CTRL5",
+			"DESCRIPTION": "Fehleranzahl Crossplant ({0})",
+			"TABLE_TITLE": null,
+			"ODATA_SRV": 1,
+			"SERVICE_NAME": "fehleranzahl_crossplant.xsodata",
+			"ENTITY_NAME": "FehleranzahlCrossplant",
+			"IS_HIERARCHY": 0,
+			"DATA_SOURCE": "siemens.COMMON_DEV.TEMP/CV_RDE_MAT_FEHLERANZAHL_CROSSPLANT",
+			"THRESHOLD": 100,
+			"CHART_HIDDEN": 0,
+			"VARIANT_HIDDEN": 0,
+			"INPUT_PARAMETERS": 0,
+			"DRILL_DOWN": 0,
+			"DRILL_DOWN_TARGET": null,
+			"INTERACTIVE_TABLE": null,
+			"INPUTPARAMS_DIALOG": null,
+			"IS_MIXED": null,
+			"ServiceToColumnConfig": {
+				"__deferred": {
+					"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/Main.xsodata/Service('CTRL5')/ServiceToColumnConfig"
+				}
+			}
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.TableViewer3.xs.services.Main.ServiceType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/Main.xsodata/Service('CTRL6')"
+			},
+			"CTRLID": "CTRL6",
+			"DESCRIPTION": "Hierarchy example",
+			"TABLE_TITLE": "Hierarchy",
+			"ODATA_SRV": 0,
+			"SERVICE_NAME": "getHierarchyV1.xsjs",
+			"ENTITY_NAME": null,
+			"IS_HIERARCHY": 1,
+			"DATA_SOURCE": null,
+			"THRESHOLD": 120,
+			"CHART_HIDDEN": 0,
+			"VARIANT_HIDDEN": 1,
+			"INPUT_PARAMETERS": 0,
+			"DRILL_DOWN": 0,
+			"DRILL_DOWN_TARGET": null,
+			"INTERACTIVE_TABLE": null,
+			"INPUTPARAMS_DIALOG": null,
+			"IS_MIXED": null,
+			"ServiceToColumnConfig": {
+				"__deferred": {
+					"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/Main.xsodata/Service('CTRL6')/ServiceToColumnConfig"
+				}
+			}
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.TableViewer3.xs.services.Main.ServiceType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/Main.xsodata/Service('CTRL7')"
+			},
+			"CTRLID": "CTRL7",
+			"DESCRIPTION": "Hierarchy example (Free date edited)",
+			"TABLE_TITLE": "Hierarchy",
+			"ODATA_SRV": 0,
+			"SERVICE_NAME": "getHierarchyV2.xsjs",
+			"ENTITY_NAME": null,
+			"IS_HIERARCHY": 1,
+			"DATA_SOURCE": null,
+			"THRESHOLD": 100,
+			"CHART_HIDDEN": 0,
+			"VARIANT_HIDDEN": 1,
+			"INPUT_PARAMETERS": 0,
+			"DRILL_DOWN": 0,
+			"DRILL_DOWN_TARGET": null,
+			"INTERACTIVE_TABLE": null,
+			"INPUTPARAMS_DIALOG": null,
+			"IS_MIXED": null,
+			"ServiceToColumnConfig": {
+				"__deferred": {
+					"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/Main.xsodata/Service('CTRL7')/ServiceToColumnConfig"
+				}
+			}
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.TableViewer3.xs.services.Main.ServiceType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/Main.xsodata/Service('CTRL8')"
+			},
+			"CTRLID": "CTRL8",
+			"DESCRIPTION": "Worst Five Hierarchy",
+			"TABLE_TITLE": "Hierarchy",
+			"ODATA_SRV": 0,
+			"SERVICE_NAME": "getHierarchyV3.xsjs",
+			"ENTITY_NAME": null,
+			"IS_HIERARCHY": 1,
+			"DATA_SOURCE": null,
+			"THRESHOLD": 100,
+			"CHART_HIDDEN": 0,
+			"VARIANT_HIDDEN": 1,
+			"INPUT_PARAMETERS": 0,
+			"DRILL_DOWN": 0,
+			"DRILL_DOWN_TARGET": null,
+			"INTERACTIVE_TABLE": null,
+			"INPUTPARAMS_DIALOG": null,
+			"IS_MIXED": null,
+			"ServiceToColumnConfig": {
+				"__deferred": {
+					"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/Main.xsodata/Service('CTRL8')/ServiceToColumnConfig"
+				}
+			}
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.TableViewer3.xs.services.Main.ServiceType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/Main.xsodata/Service('CTRL9')"
+			},
+			"CTRLID": "CTRL9",
+			"DESCRIPTION": "AM Dash Test Data",
+			"TABLE_TITLE": "AM Dash",
+			"ODATA_SRV": 1,
+			"SERVICE_NAME": "amDash.xsodata",
+			"ENTITY_NAME": "Data",
+			"IS_HIERARCHY": 0,
+			"DATA_SOURCE": "siemens.COMMON_DEV.model/CV_AM_DASH",
+			"THRESHOLD": 100,
+			"CHART_HIDDEN": 0,
+			"VARIANT_HIDDEN": 0,
+			"INPUT_PARAMETERS": 0,
+			"DRILL_DOWN": 1,
+			"DRILL_DOWN_TARGET": "CTRL9",
+			"INTERACTIVE_TABLE": null,
+			"INPUTPARAMS_DIALOG": null,
+			"IS_MIXED": null,
+			"ServiceToColumnConfig": {
+				"__deferred": {
+					"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/Main.xsodata/Service('CTRL9')/ServiceToColumnConfig"
+				}
+			}
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.TableViewer3.xs.services.Main.ServiceType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/Main.xsodata/Service('HV_01')"
+			},
+			"CTRLID": "HV_01",
+			"DESCRIPTION": "Hierarchy View (xsjs)",
+			"TABLE_TITLE": "Hierarchy",
+			"ODATA_SRV": 0,
+			"SERVICE_NAME": "getHierarchyV4_2.xsjs",
+			"ENTITY_NAME": null,
+			"IS_HIERARCHY": 1,
+			"DATA_SOURCE": null,
+			"THRESHOLD": 100,
+			"CHART_HIDDEN": 1,
+			"VARIANT_HIDDEN": 1,
+			"INPUT_PARAMETERS": 0,
+			"DRILL_DOWN": 0,
+			"DRILL_DOWN_TARGET": null,
+			"INTERACTIVE_TABLE": null,
+			"INPUTPARAMS_DIALOG": null,
+			"IS_MIXED": null,
+			"ServiceToColumnConfig": {
+				"__deferred": {
+					"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/Main.xsodata/Service('HV_01')/ServiceToColumnConfig"
+				}
+			}
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.TableViewer3.xs.services.Main.ServiceType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/Main.xsodata/Service('HV_02')"
+			},
+			"CTRLID": "HV_02",
+			"DESCRIPTION": "Hierarchy View (OData)",
+			"TABLE_TITLE": "Hierarchy",
+			"ODATA_SRV": 1,
+			"SERVICE_NAME": "getHierarchyV1.xsodata",
+			"ENTITY_NAME": "Data",
+			"IS_HIERARCHY": 1,
+			"DATA_SOURCE": "siemens.COMMON_DEV.model.hier::CV_AM_OVERDUE_SRV",
+			"THRESHOLD": 100,
+			"CHART_HIDDEN": 1,
+			"VARIANT_HIDDEN": 0,
+			"INPUT_PARAMETERS": 0,
+			"DRILL_DOWN": 0,
+			"DRILL_DOWN_TARGET": null,
+			"INTERACTIVE_TABLE": 1,
+			"INPUTPARAMS_DIALOG": null,
+			"IS_MIXED": null,
+			"ServiceToColumnConfig": {
+				"__deferred": {
+					"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/Main.xsodata/Service('HV_02')/ServiceToColumnConfig"
+				}
+			}
+		},
+		{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.TableViewer3.xs.services.Main.ServiceType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/Main.xsodata/Service('TYPE_TEST')"
+			},
+			"CTRLID": "TYPE_TEST",
+			"DESCRIPTION": "Type testing ",
+			"TABLE_TITLE": null,
+			"ODATA_SRV": 1,
+			"SERVICE_NAME": "typetest.xsodata",
+			"ENTITY_NAME": "Data",
+			"IS_HIERARCHY": 0,
+			"DATA_SOURCE": "siemens.COMMON_DEV.TEMP::T_EXPORT_FORMATING",
+			"THRESHOLD": 100,
+			"CHART_HIDDEN": 1,
+			"VARIANT_HIDDEN": 1,
+			"INPUT_PARAMETERS": 0,
+			"DRILL_DOWN": 0,
+			"DRILL_DOWN_TARGET": null,
+			"INTERACTIVE_TABLE": 1,
+			"INPUTPARAMS_DIALOG": null,
+			"IS_MIXED": null,
+			"ServiceToColumnConfig": {
+				"__deferred": {
+					"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/Main.xsodata/Service('TYPE_TEST')/ServiceToColumnConfig"
+				}
+			}
+		}]
+	}
+}

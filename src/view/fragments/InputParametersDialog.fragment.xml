@@ -1,0 +1,31 @@
+<core:FragmentDefinition
+                        xmlns:core="sap.ui.core"
+                        xmlns:l="sap.ui.layout"
+                        xmlns:f="sap.ui.layout.form"
+                        xmlns="sap.m">
+    <Dialog
+            title="{i18n>inputParameters.Dialog.Title}"
+            icon="sap-icon://filter"
+            contentWidth="650px"
+            class="sapUiNoContentPadding">
+        <content>
+            <f:SimpleForm 
+                        id="siemensUiInputParamsForm"
+                        layout="ResponsiveGridLayout"
+                        labelSpanL="5"
+                        labelSpanM="5"
+                        columnsL="1"
+                        columnsM="1" />
+        </content>
+        <beginButton>
+            <Button 
+                    text="{i18n>inputParameters.Dialog.Button.Submit}" 
+                    press="onInputParameterSearch" />
+        </beginButton>
+        <endButton>
+            <Button 
+                    text="{i18n>inputParameters.Dialog.Button.Cancel}" 
+                    press="onInputParameterCancel" />
+        </endButton>
+    </Dialog>
+</core:FragmentDefinition>

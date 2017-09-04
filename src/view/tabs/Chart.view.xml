@@ -1,0 +1,10 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc"
+          xmlns:l="sap.ui.layout"
+          xmlns:core="sap.ui.core"
+          xmlns="sap.m"
+          controllerName="com.siemens.tableViewer.controller.tabs.Chart">
+    <l:Grid 
+            id="siemensUiChartsGrid" 
+            busy="true" 
+            defaultSpan="L4 M6 S12" />
+</mvc:View>

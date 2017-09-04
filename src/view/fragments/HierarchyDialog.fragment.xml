@@ -1,0 +1,55 @@
+<core:FragmentDefinition
+                        xmlns="sap.m"
+                        xmlns:t="sap.ui.table"
+                        xmlns:l="sap.ui.layout"
+                        xmlns:core="sap.ui.core"
+                        xmlns:custom="com.siemens.tableViewer.control"
+                        xmlns:commons="sap.ui.commons">
+	<Dialog 
+            id="siemensUiHierarchyDialog" 
+            title="{i18n>hierarchy.Dialog.Title}: {hierarchyDialogViewModel>/COLUMN_LABEL}" 
+            beforeOpen="onBeforeHierarchyDialogOpen" 
+            beforeClose="onBeforeHierarchyDialogClose">
+		<content>
+			<l:Grid 
+                    defaultSpan="L12 M12 S12">
+				<custom:ExtendedTreeTable
+                                        title="{i18n>hierarchy.Dialog.Table.Title}"
+                                        visibleRowCount="10"
+                                        expandFirstLevel="false"
+                                        enableSelectAll="false"
+                                        selectionBehavior="RowOnly"
+                                        selectionMode="None"
+                                        busyIndicatorDelay="0"
+                                        enableBusyIndicator="true"
+                                        toggleOpenState="onHierarchyDialogToogleState"
+                                        busy="false">
+            		<custom:columns>
+            			<t:Column>
+            				<t:label>
+            					<Text 
+                                    text="{hierarchyDialogViewModel>/COLUMN_LABEL}" />
+            				</t:label>
+            				<t:template>
+            					<commons:TriStateCheckBox
+            						                    text="{RESULT_NODE_NAME}"
+            						                    selectionState="{checked}"
+            						                    change="onChangeTriStateCheckBoxes"/>
+            				</t:template>
+            			</t:Column>
+            		</custom:columns>
+            	</custom:ExtendedTreeTable>
+           	</l:Grid>
+		</content>
+		<beginButton>
+			<Button 
+                    text="{i18n>hierarchy.Dialog.Button.Ok}" 
+                    press="onHierarchyDialogOk"/>
+		</beginButton>
+		<endButton>
+			<Button 
+                    text="{i18n>hierarchy.Dialog.Button.Cancel}" 
+                    press="onHierarchyDialogCancel"/>
+		</endButton>
+	</Dialog>
+</core:FragmentDefinition>

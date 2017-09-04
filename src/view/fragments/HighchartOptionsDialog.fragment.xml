@@ -1,0 +1,61 @@
+<core:FragmentDefinition 
+						xmlns:core="sap.ui.core"
+						 xmlns:f="sap.ui.layout.form"
+						 xmlns:l="sap.ui.layout"
+						 xmlns="sap.m">
+	<Dialog id="siemensHighchartOptionsDialog" class="sapUiPopupWithPadding" title="{i18n>dialog.highchartsOptions}" afterClose="onAfterCloseHighchartOptionsDialog" contentWidth="30%">
+		<content>
+			<f:Form id="siemensHighchartOptionsForm" title="" 
+					maxContainerCols="1"
+					editable="true"
+					formContainers="{highchartOptionsModel>/items}">
+				<f:layout>
+					<f:ResponsiveGridLayout
+							labelSpanL="2"
+							labelSpanM="2"
+							emptySpanL="0"
+							emptySpanM="0"
+							columnsL="4"
+							columnsM="4"/>
+				</f:layout>
+				<f:FormContainer>
+					<f:formElements>
+						<f:FormElement
+								label="{highchartOptionsModel>LABEL}">
+							<f:fields>
+							<HBox>
+								<Select class="sapUiTinyMarginEnd"
+												width="200px"
+												selectedKey="{highchartOptionsModel>CHARTTYPE}"
+												items="{highchartOptionsModel>CHARTTYPES}">
+											<core:Item
+													key="{highchartOptionsModel>cType}"
+													text="{highchartOptionsModel>cType}"/>
+										</Select>
+										<Select
+												width="150px"
+												selectedKey="{highchartOptionsModel>CHARTGROUP}"
+												items="{highchartOptionsModel>CHARTGROUPS}">
+											<core:Item
+													key="{highchartOptionsModel>key}"
+													text="{highchartOptionsModel>text}"/>
+										</Select>
+										</HBox>
+							</f:fields>
+						</f:FormElement>
+					</f:formElements>
+				</f:FormContainer>
+			</f:Form>
+		</content>
+		<buttons>
+			<Button 
+					id="onReverseOk" 
+					press="onHighchartsOk" 
+					text="{i18n>dialog.highchartsOptions.button.ok}"/>
+			<Button 
+					id="onReverseCancel" 
+					press="onHighchartsCancel" 
+					text="{i18n>dialog.highchartsOptions.button.cancel}"/>
+		</buttons>
+	</Dialog>
+</core:FragmentDefinition>

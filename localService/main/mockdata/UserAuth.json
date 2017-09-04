@@ -1,0 +1,78 @@
+{
+  "d": {
+	"results": [
+	  {
+		"__metadata": {
+		  "type": "siemens.COMMON_DEV.TableViewer3.xs.services.Main.UserAuthType",
+		  "uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/Main.xsodata/UserAuth('Z003N17Z')"
+		},
+		"USERID": "Z003N17Z",
+		"ADMIN_CELL_COLOR": 1,
+		"ADMIN_SHARE_VARIANT": 1
+	  },
+	  {
+		"__metadata": {
+		  "type": "siemens.COMMON_DEV.TableViewer3.xs.services.Main.UserAuthType",
+		  "uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/Main.xsodata/UserAuth('Z003N18A')"
+		},
+		"USERID": "Z003N18A",
+		"ADMIN_CELL_COLOR": 1,
+		"ADMIN_SHARE_VARIANT": 1
+	  },
+	  {
+		"__metadata": {
+		  "type": "siemens.COMMON_DEV.TableViewer3.xs.services.Main.UserAuthType",
+		  "uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/Main.xsodata/UserAuth('Z003N18R')"
+		},
+		"USERID": "Z003N18R",
+		"ADMIN_CELL_COLOR": 1,
+		"ADMIN_SHARE_VARIANT": 1
+	  },
+	  {
+		"__metadata": {
+		  "type": "siemens.COMMON_DEV.TableViewer3.xs.services.Main.UserAuthType",
+		  "uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/Main.xsodata/UserAuth('Z003N2VJ')"
+		},
+		"USERID": "Z003N2VJ",
+		"ADMIN_CELL_COLOR": 1,
+		"ADMIN_SHARE_VARIANT": 1
+	  },
+	  {
+		"__metadata": {
+		  "type": "siemens.COMMON_DEV.TableViewer3.xs.services.Main.UserAuthType",
+		  "uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/Main.xsodata/UserAuth('Z003N76U')"
+		},
+		"USERID": "Z003N76U",
+		"ADMIN_CELL_COLOR": 1,
+		"ADMIN_SHARE_VARIANT": 1
+	  },
+	  {
+		"__metadata": {
+		  "type": "siemens.COMMON_DEV.TableViewer3.xs.services.Main.UserAuthType",
+		  "uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/Main.xsodata/UserAuth('Z003ND2P')"
+		},
+		"USERID": "Z003ND2P",
+		"ADMIN_CELL_COLOR": 1,
+		"ADMIN_SHARE_VARIANT": 1
+	  },
+	  {
+		"__metadata": {
+		  "type": "siemens.COMMON_DEV.TableViewer3.xs.services.Main.UserAuthType",
+		  "uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/Main.xsodata/UserAuth('Z003NW1X')"
+		},
+		"USERID": "Z003NW1X",
+		"ADMIN_CELL_COLOR": 1,
+		"ADMIN_SHARE_VARIANT": 1
+	  },
+	  {
+		"__metadata": {
+		  "type": "siemens.COMMON_DEV.TableViewer3.xs.services.Main.UserAuthType",
+		  "uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/Main.xsodata/UserAuth('Z003P10K')"
+		},
+		"USERID": "Z003P10K",
+		"ADMIN_CELL_COLOR": 1,
+		"ADMIN_SHARE_VARIANT": 1
+	  }
+	]
+  }
+}

@@ -1,0 +1,37 @@
+<core:FragmentDefinition
+		xmlns="sap.m"
+		xmlns:core="sap.ui.core">
+	<ResponsivePopover
+			id="exportMenu"
+			showHeader="false"
+			placement="Bottom">
+		<content>
+			<List>
+				<StandardListItem
+						id="xlsx"
+						icon="sap-icon://excel-attachment"
+						title="{i18n>tbl.export.Excel}"
+						type="Active"
+						press="onExportPressed">
+					<customData>
+						<core:CustomData
+								key="id"
+								value="xlsx"/>
+					</customData>
+				</StandardListItem>
+				<StandardListItem
+						id="csv"
+						icon="sap-icon://attachment-text-file"
+						title="{i18n>tbl.export.CSV}"
+						type="Active"
+						press="onExportPressed">
+					<customData>
+						<core:CustomData
+								key="id"
+								value="csv"/>
+					</customData>
+				</StandardListItem>
+			</List>
+		</content>
+	</ResponsivePopover>
+</core:FragmentDefinition>

@@ -1,0 +1,40 @@
+{
+  "d": {
+	"results": [
+	  {
+		"__metadata": {
+		  "type": "siemens.COMMON_DEV.TableViewer3.xs.services.Main.VariantManagementType",
+		  "uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/Main.xsodata/VariantManagement(CTRLID='CTRL1',VARIANTID='SV1478593823452',USERID='Admin')"
+		},
+		"CTRLID": "CTRL1",
+		"VARIANTID": "SV1478593823452",
+		"USERID": "Admin",
+		"VARIANT_NAME": "Admin Variant",
+		"IS_DEFAULT": 0,
+		"IS_GLOBAL": 1,
+		"IS_HIDDEN": 0,
+		"FILTER_OBJECT": "",
+		"FOR_USERS": "Z003NW1X,Z003N76U",
+		"TABLE_COLUMNS": "",
+		"CHART_CONFIG":""
+	  },
+	  {
+		"__metadata": {
+		  "type": "siemens.COMMON_DEV.TableViewer3.xs.services.Main.VariantManagementType",
+		  "uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/Main.xsodata/VariantManagement(CTRLID='CTRL1',VARIANTID='SV1478593823552',USERID='Admin')"
+		},
+		"CTRLID": "CTRL1",
+		"VARIANTID": "SV1478593823552",
+		"USERID": "Admin",
+		"VARIANT_NAME": "Admin Variant Second",
+		"IS_DEFAULT": 0,
+		"IS_GLOBAL": 1,
+		"IS_HIDDEN": 0,
+		"FILTER_OBJECT": "",
+		"FOR_USERS": "Z003NW1X",
+		"TABLE_COLUMNS": "",
+		"CHART_CONFIG":""
+	  }
+	]
+  }
+}

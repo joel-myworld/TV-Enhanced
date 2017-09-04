@@ -1,0 +1,17 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc"
+		  xmlns="sap.m"
+		  xmlns:custom="com.siemens.tableViewer.control"
+		  displayBlock="true"
+		  controllerName="com.siemens.tableViewer.controller.VariantManagement">
+	<custom:ExtendedVariantManagement
+			id="variantManagement"
+			select="onSelectStandardVariant"
+			save="onSaveStandardVariant"
+			manage="onManageStandardVariant"/>
+	<Button
+			text="{i18n>sharedVariantMngt.Button.Title}"
+			icon="sap-icon://share-2"
+			type="Transparent"
+			visible="{path: 'mainView>/ADMIN_SHARE_VARIANT', type: 'com.siemens.tableViewer.model.types.hanaBoolean'}"
+			press="onManageSharedVariants"/>
+</mvc:View>

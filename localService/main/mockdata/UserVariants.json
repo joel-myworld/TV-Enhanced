@@ -1,0 +1,165 @@
+{
+	"d": {
+		"results": [{
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.TableViewer3.xs.services.Main.UserVariantsType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/Main.xsodata/UserVariants(CTRLID='CTRL1',VARIANTID='DependentReport',USERID='Z003N76U',IS_GLOBAL=0)"
+			},
+			"CTRLID": "CTRL1",
+			"VARIANTID": "DependentReport",
+			"USERID": "Z003N76U",
+			"VARIANT_NAME": "DependentReport",
+			"IS_DEFAULT": 0,
+			"IS_GLOBAL": 0,
+			"IS_HIDDEN": 1,
+			"FILTER_OBJECT": "%7B%22oFilters%22:%7B%22CALMONTH%22:%5B%22201606%22%5D,%22LOCAT_CAL%22:%5B%22KU1%22%5D%7D%7D",
+			"FOR_USERS": "",
+			"TABLE_COLUMNS": "",
+			"CHART_CONFIG": null
+		}, {
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.TableViewer3.xs.services.Main.UserVariantsType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/Main.xsodata/UserVariants(CTRLID='CTRL1',VARIANTID='SV1487919382617',USERID='Z003N76U',IS_GLOBAL=1)"
+			},
+			"CTRLID": "CTRL1",
+			"VARIANTID": "SV1487919382617",
+			"USERID": "Z003N76U",
+			"VARIANT_NAME": "Deepali test 1",
+			"IS_DEFAULT": 0,
+			"IS_GLOBAL": 1,
+			"IS_HIDDEN": 0,
+			"FILTER_OBJECT": "%7B%22filterbar%22:%5B%7B%22group%22:%22__$INTERNAL$%22,%22name%22:%22CALMONTH%22,%22partOfCurrentVariant%22:true,%22visibleInFilterBar%22:true%7D,%7B%22group%22:%22__$INTERNAL$%22,%22name%22:%22ERDAT%22,%22partOfCurrentVariant%22:true,%22visibleInFilterBar%22:false%7D,%7B%22group%22:%22__$INTERNAL$%22,%22name%22:%22ERDAT_DATE%22,%22partOfCurrentVariant%22:true,%22visibleInFilterBar%22:false%7D,%7B%22group%22:%22__$INTERNAL$%22,%22name%22:%22LOCAT_CAL%22,%22partOfCurrentVariant%22:true,%22visibleInFilterBar%22:true%7D,%7B%22group%22:%22__$INTERNAL$%22,%22name%22:%22NUCAF%22,%22partOfCurrentVariant%22:true,%22visibleInFilterBar%22:false%7D,%7B%22group%22:%22__$INTERNAL$%22,%22name%22:%22SELEC%22,%22partOfCurrentVariant%22:true,%22visibleInFilterBar%22:false%7D,%7B%22group%22:%22__$INTERNAL$%22,%22name%22:%22TESTL%22,%22partOfCurrentVariant%22:true,%22visibleInFilterBar%22:false%7D%5D,%22filterBarVariant%22:%7B%22CALMONTH%22:%7B%22items%22:%5B%5D,%22value%22:%22%22%7D,%22ERDAT%22:%7B%22low%22:null%7D,%22ERDAT_DATE%22:%7B%22items%22:%5B%5D,%22value%22:%22%22%7D,%22LOCAT_CAL%22:%7B%22items%22:%5B%22DA1%22,%22DA2%22,%22FLE%22%5D%7D,%22NUCAF%22:%7B%22items%22:%5B%5D,%22value%22:%22%22%7D,%22SELEC%22:%7B%22items%22:%5B%5D,%22value%22:%22%22%7D,%22TESTL%22:%7B%22items%22:%5B%5D,%22value%22:%22%22%7D%7D%7D",
+			"FOR_USERS": "",
+			"TABLE_COLUMNS": "null",
+			"CHART_CONFIG": null
+		}, {
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.TableViewer3.xs.services.Main.UserVariantsType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/Main.xsodata/UserVariants(CTRLID='CTRL1',VARIANTID='SV1488261403249',USERID='Z003N76U',IS_GLOBAL=1)"
+			},
+			"CTRLID": "CTRL1",
+			"VARIANTID": "SV1488261403249",
+			"USERID": "Z003N76U",
+			"VARIANT_NAME": "Test_shared",
+			"IS_DEFAULT": 0,
+			"IS_GLOBAL": 1,
+			"IS_HIDDEN": 0,
+			"FILTER_OBJECT": "%7B%22filterbar%22:%5B%7B%22group%22:%22__$INTERNAL$%22,%22name%22:%22CALMONTH%22,%22partOfCurrentVariant%22:true,%22visibleInFilterBar%22:true%7D,%7B%22group%22:%22__$INTERNAL$%22,%22name%22:%22ERDAT%22,%22partOfCurrentVariant%22:true,%22visibleInFilterBar%22:false%7D,%7B%22group%22:%22__$INTERNAL$%22,%22name%22:%22ERDAT_DATE%22,%22partOfCurrentVariant%22:true,%22visibleInFilterBar%22:false%7D,%7B%22group%22:%22__$INTERNAL$%22,%22name%22:%22LOCAT_CAL%22,%22partOfCurrentVariant%22:true,%22visibleInFilterBar%22:true%7D,%7B%22group%22:%22__$INTERNAL$%22,%22name%22:%22NUCAF%22,%22partOfCurrentVariant%22:true,%22visibleInFilterBar%22:false%7D,%7B%22group%22:%22__$INTERNAL$%22,%22name%22:%22SELEC%22,%22partOfCurrentVariant%22:true,%22visibleInFilterBar%22:false%7D,%7B%22group%22:%22__$INTERNAL$%22,%22name%22:%22TESTL%22,%22partOfCurrentVariant%22:true,%22visibleInFilterBar%22:false%7D%5D,%22filterBarVariant%22:%7B%22CALMONTH%22:%7B%22items%22:%5B%7B%22key%22:%22201003%22,%22text%22:%2203.2010%22%7D%5D,%22ranges%22:%5B%5D%7D,%22ERDAT%22:%7B%22low%22:null%7D,%22ERDAT_DATE%22:%7B%22items%22:%5B%5D,%22value%22:%22%22%7D,%22LOCAT_CAL%22:%7B%22items%22:%5B%22DA1%22%5D%7D,%22NUCAF%22:%7B%22items%22:%5B%5D,%22value%22:%22%22%7D,%22SELEC%22:%7B%22items%22:%5B%5D,%22value%22:%22%22%7D,%22TESTL%22:%7B%22items%22:%5B%5D,%22value%22:%22%22%7D%7D%7D",
+			"FOR_USERS": "",
+			"TABLE_COLUMNS": "null",
+			"CHART_CONFIG": null
+		}, {
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.TableViewer3.xs.services.Main.UserVariantsType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/Main.xsodata/UserVariants(CTRLID='CTRL1',VARIANTID='SV1489136232612',USERID='Z003N76U',IS_GLOBAL=0)"
+			},
+			"CTRLID": "CTRL1",
+			"VARIANTID": "SV1489136232612",
+			"USERID": "Z003N76U",
+			"VARIANT_NAME": "ChartConfig",
+			"IS_DEFAULT": 0,
+			"IS_GLOBAL": 0,
+			"IS_HIDDEN": 0,
+			"FILTER_OBJECT": "%7B%22filterbar%22:%5B%7B%22group%22:%22__$INTERNAL$%22,%22name%22:%22CALMONTH%22,%22partOfCurrentVariant%22:true,%22visibleInFilterBar%22:true%7D,%7B%22group%22:%22__$INTERNAL$%22,%22name%22:%22ERDAT%22,%22partOfCurrentVariant%22:true,%22visibleInFilterBar%22:false%7D,%7B%22group%22:%22__$INTERNAL$%22,%22name%22:%22ERDAT_DATE%22,%22partOfCurrentVariant%22:true,%22visibleInFilterBar%22:false%7D,%7B%22group%22:%22__$INTERNAL$%22,%22name%22:%22LOCAT_CAL%22,%22partOfCurrentVariant%22:true,%22visibleInFilterBar%22:true%7D,%7B%22group%22:%22__$INTERNAL$%22,%22name%22:%22NUCAF%22,%22partOfCurrentVariant%22:true,%22visibleInFilterBar%22:false%7D,%7B%22group%22:%22__$INTERNAL$%22,%22name%22:%22SELEC%22,%22partOfCurrentVariant%22:true,%22visibleInFilterBar%22:true%7D,%7B%22group%22:%22__$INTERNAL$%22,%22name%22:%22TESTL%22,%22partOfCurrentVariant%22:true,%22visibleInFilterBar%22:false%7D%5D,%22filterBarVariant%22:%7B%22CALMONTH%22:%7B%22items%22:%5B%5D,%22value%22:%22%22%7D,%22ERDAT%22:%7B%22low%22:null%7D,%22ERDAT_DATE%22:%7B%22items%22:%5B%5D,%22value%22:%22%22%7D,%22LOCAT_CAL%22:%7B%22items%22:%5B%22DA1%22,%22DA2%22%5D%7D,%22NUCAF%22:%7B%22items%22:%5B%5D,%22value%22:%22%22%7D,%22SELEC%22:%7B%22items%22:%5B%5D,%22value%22:%22%22%7D,%22TESTL%22:%7B%22items%22:%5B%5D,%22value%22:%22%22%7D%7D%7D",
+			"FOR_USERS": "",
+			"TABLE_COLUMNS": "%5B%7B%22fieldName%22:%22CALMONTH%22,%22sortOrder%22:%221%22%7D,%7B%22fieldName%22:%22LOCAT_CAL%22,%22sortOrder%22:null%7D,%7B%22fieldName%22:%22NUCAF%22,%22sortOrder%22:null%7D,%7B%22fieldName%22:%22SELEC%22,%22sortOrder%22:null%7D%5D",
+			"CHART_CONFIG": "%5B%7B%22CHARTID%22:%22c1%22,%22TYPE%22:%22pie%22,%22ICON%22:%22sap-icon://pie-chart%22%7D,%7B%22CHARTID%22:%22c2%22,%22TYPE%22:%22line%22,%22ICON%22:%22sap-icon://line-chart%22%7D%5D"
+		}, {
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.TableViewer3.xs.services.Main.UserVariantsType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/Main.xsodata/UserVariants(CTRLID='CTRL1',VARIANTID='SV1489137983814',USERID='Z003N76U',IS_GLOBAL=0)"
+			},
+			"CTRLID": "CTRL1",
+			"VARIANTID": "SV1489137983814",
+			"USERID": "Z003N76U",
+			"VARIANT_NAME": "WithColumn",
+			"IS_DEFAULT": 0,
+			"IS_GLOBAL": 0,
+			"IS_HIDDEN": 0,
+			"FILTER_OBJECT": "%7B%22filterbar%22:%5B%7B%22group%22:%22__$INTERNAL$%22,%22name%22:%22CALMONTH%22,%22partOfCurrentVariant%22:true,%22visibleInFilterBar%22:true%7D,%7B%22group%22:%22__$INTERNAL$%22,%22name%22:%22ERDAT%22,%22partOfCurrentVariant%22:true,%22visibleInFilterBar%22:false%7D,%7B%22group%22:%22__$INTERNAL$%22,%22name%22:%22ERDAT_DATE%22,%22partOfCurrentVariant%22:true,%22visibleInFilterBar%22:false%7D,%7B%22group%22:%22__$INTERNAL$%22,%22name%22:%22LOCAT_CAL%22,%22partOfCurrentVariant%22:true,%22visibleInFilterBar%22:true%7D,%7B%22group%22:%22__$INTERNAL$%22,%22name%22:%22NUCAF%22,%22partOfCurrentVariant%22:true,%22visibleInFilterBar%22:false%7D,%7B%22group%22:%22__$INTERNAL$%22,%22name%22:%22SELEC%22,%22partOfCurrentVariant%22:true,%22visibleInFilterBar%22:false%7D,%7B%22group%22:%22__$INTERNAL$%22,%22name%22:%22TESTL%22,%22partOfCurrentVariant%22:true,%22visibleInFilterBar%22:false%7D%5D,%22filterBarVariant%22:%7B%22CALMONTH%22:%7B%22items%22:%5B%5D,%22value%22:%22%22%7D,%22ERDAT%22:%7B%22low%22:null%7D,%22ERDAT_DATE%22:%7B%22items%22:%5B%5D,%22value%22:%22%22%7D,%22LOCAT_CAL%22:%7B%22items%22:%5B%22DA1%22,%22DA2%22,%22FLE%22%5D%7D,%22NUCAF%22:%7B%22items%22:%5B%5D,%22value%22:%22%22%7D,%22SELEC%22:%7B%22items%22:%5B%5D,%22value%22:%22%22%7D,%22TESTL%22:%7B%22items%22:%5B%5D,%22value%22:%22%22%7D%7D%7D",
+			"FOR_USERS": "",
+			"TABLE_COLUMNS": "%5B%7B%22fieldName%22:%22CALMONTH%22,%22sortOrder%22:null%7D,%7B%22fieldName%22:%22LOCAT_CAL%22,%22sortOrder%22:null%7D,%7B%22fieldName%22:%22NUCAF%22,%22sortOrder%22:null%7D,%7B%22fieldName%22:%22SELEC%22,%22sortOrder%22:null%7D%5D",
+			"CHART_CONFIG": "%5B%5D"
+		}, {
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.TableViewer3.xs.services.Main.UserVariantsType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/Main.xsodata/UserVariants(CTRLID='CTRL3',VARIANTID='SV1488522957430',USERID='Z003N76U',IS_GLOBAL=0)"
+			},
+			"CTRLID": "CTRL3",
+			"VARIANTID": "SV1488522957430",
+			"USERID": "Z003N76U",
+			"VARIANT_NAME": "Mix Tab",
+			"IS_DEFAULT": 1,
+			"IS_GLOBAL": 0,
+			"IS_HIDDEN": 0,
+			"FILTER_OBJECT": "%7B%22filterbar%22:%5B%7B%22group%22:%22__$INTERNAL$%22,%22name%22:%22BEZEI%22,%22partOfCurrentVariant%22:true,%22visibleInFilterBar%22:false%7D,%7B%22group%22:%22__$INTERNAL$%22,%22name%22:%22CALMONTH%22,%22partOfCurrentVariant%22:true,%22visibleInFilterBar%22:false%7D,%7B%22group%22:%22__$INTERNAL$%22,%22name%22:%22ERDAT%22,%22partOfCurrentVariant%22:true,%22visibleInFilterBar%22:false%7D,%7B%22group%22:%22__$INTERNAL$%22,%22name%22:%22LOCAT_CAL%22,%22partOfCurrentVariant%22:true,%22visibleInFilterBar%22:true%7D,%7B%22group%22:%22__$INTERNAL$%22,%22name%22:%22MSGV1_DE%22,%22partOfCurrentVariant%22:true,%22visibleInFilterBar%22:false%7D,%7B%22group%22:%22__$INTERNAL$%22,%22name%22:%22MSGV2_DE%22,%22partOfCurrentVariant%22:true,%22visibleInFilterBar%22:false%7D,%7B%22group%22:%22__$INTERNAL$%22,%22name%22:%22SELEC%22,%22partOfCurrentVariant%22:true,%22visibleInFilterBar%22:false%7D,%7B%22group%22:%22__$INTERNAL$%22,%22name%22:%22TESTL%22,%22partOfCurrentVariant%22:true,%22visibleInFilterBar%22:false%7D%5D,%22filterBarVariant%22:%7B%22BEZEI%22:%7B%22items%22:%5B%5D,%22value%22:%22%22%7D,%22CALMONTH%22:%7B%22items%22:%5B%5D,%22value%22:%22%22%7D,%22ERDAT%22:%7B%22items%22:%5B%5D,%22value%22:%22%22%7D,%22LOCAT_CAL%22:%7B%22items%22:%5B%7B%22key%22:%22GRA%22,%22text%22:%22GRA%22%7D%5D,%22ranges%22:%5B%5D%7D,%22MSGV1_DE%22:%7B%22items%22:%5B%5D,%22value%22:%22%22%7D,%22MSGV2_DE%22:%7B%22items%22:%5B%5D,%22value%22:%22%22%7D,%22SELEC%22:%7B%22items%22:%5B%5D,%22value%22:%22%22%7D,%22TESTL%22:%7B%22items%22:%5B%5D,%22value%22:%22%22%7D%7D%7D",
+			"FOR_USERS": "",
+			"TABLE_COLUMNS": "%5B%7B%22fieldName%22:%22LOCAT_CAL%22,%22sortOrder%22:null%7D,%7B%22fieldName%22:%22NUCAC%22,%22sortOrder%22:null%7D,%7B%22fieldName%22:%22NUCAF%22,%22sortOrder%22:null%7D%5D",
+			"CHART_CONFIG": null
+		}, {
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.TableViewer3.xs.services.Main.UserVariantsType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/Main.xsodata/UserVariants(CTRLID='CTRL_INP',VARIANTID='SV1488352480618',USERID='Z003N76U',IS_GLOBAL=0)"
+			},
+			"CTRLID": "CTRL_INP",
+			"VARIANTID": "SV1488352480618",
+			"USERID": "Z003N76U",
+			"VARIANT_NAME": "test",
+			"IS_DEFAULT": 0,
+			"IS_GLOBAL": 0,
+			"IS_HIDDEN": 0,
+			"FILTER_OBJECT": "%7B%22filterbar%22:%5B%7B%22group%22:%22__$INTERNAL$%22,%22name%22:%22ARE%22,%22partOfCurrentVariant%22:true,%22visibleInFilterBar%22:true%7D,%7B%22group%22:%22__$INTERNAL$%22,%22name%22:%22ARE_COUNTRY%22,%22partOfCurrentVariant%22:true,%22visibleInFilterBar%22:true%7D,%7B%22group%22:%22__$INTERNAL$%22,%22name%22:%22ARE_COUNTRY_CODE%22,%22partOfCurrentVariant%22:true,%22visibleInFilterBar%22:true%7D,%7B%22group%22:%22__$INTERNAL$%22,%22name%22:%22BELEGDATUM%22,%22partOfCurrentVariant%22:true,%22visibleInFilterBar%22:true%7D,%7B%22group%22:%22__$INTERNAL$%22,%22name%22:%22BELEGNR%22,%22partOfCurrentVariant%22:true,%22visibleInFilterBar%22:false%7D,%7B%22group%22:%22__$INTERNAL$%22,%22name%22:%22BELEGPOS%22,%22partOfCurrentVariant%22:true,%22visibleInFilterBar%22:false%7D,%7B%22group%22:%22__$INTERNAL$%22,%22name%22:%22BILKT%22,%22partOfCurrentVariant%22:true,%22visibleInFilterBar%22:false%7D,%7B%22group%22:%22__$INTERNAL$%22,%22name%22:%22BUKRS%22,%22partOfCurrentVariant%22:true,%22visibleInFilterBar%22:false%7D,%7B%22group%22:%22__$INTERNAL$%22,%22name%22:%22BUNIT%22,%22partOfCurrentVariant%22:true,%22visibleInFilterBar%22:false%7D,%7B%22group%22:%22__$INTERNAL$%22,%22name%22:%22BUS_SEGMENT%22,%22partOfCurrentVariant%22:true,%22visibleInFilterBar%22:false%7D,%7B%22group%22:%22__$INTERNAL$%22,%22name%22:%22BUS_SUBSEGMENT%22,%22partOfCurrentVariant%22:true,%22visibleInFilterBar%22:false%7D,%7B%22group%22:%22__$INTERNAL$%22,%22name%22:%22CITY%22,%22partOfCurrentVariant%22:true,%22visibleInFilterBar%22:true%7D,%7B%22group%22:%22__$INTERNAL$%22,%22name%22:%22CI_ARE_NAME%22,%22partOfCurrentVariant%22:true,%22visibleInFilterBar%22:false%7D,%7B%22group%22:%22__$INTERNAL$%22,%22name%22:%22PERIOD%22,%22partOfCurrentVariant%22:true,%22visibleInFilterBar%22:true%7D%5D,%22filterBarVariant%22:%7B%22ARE%22:%7B%22items%22:%5B%5D,%22value%22:%22%22%7D,%22ARE_COUNTRY%22:%7B%22items%22:%5B%7B%22key%22:%22Algeria%22,%22text%22:%22Algeria%22%7D,%7B%22key%22:%22Angola%22,%22text%22:%22Angola%22%7D%5D,%22ranges%22:%5B%5D%7D,%22ARE_COUNTRY_CODE%22:%7B%22items%22:%5B%5D,%22value%22:%22%22%7D,%22BELEGDATUM%22:%7B%22items%22:%5B%5D,%22value%22:%22%22%7D,%22BELEGNR%22:%7B%22items%22:%5B%5D,%22value%22:%22%22%7D,%22BELEGPOS%22:%7B%22items%22:%5B%5D,%22value%22:%22%22%7D,%22BILKT%22:%7B%22items%22:%5B%5D,%22value%22:%22%22%7D,%22BUKRS%22:%7B%22items%22:%5B%5D,%22value%22:%22%22%7D,%22BUNIT%22:%7B%22items%22:%5B%5D,%22value%22:%22%22%7D,%22BUS_SEGMENT%22:%7B%22items%22:%5B%5D,%22value%22:%22%22%7D,%22BUS_SUBSEGMENT%22:%7B%22items%22:%5B%5D,%22value%22:%22%22%7D,%22CITY%22:%7B%22items%22:%5B%5D,%22value%22:%22%22%7D,%22CI_ARE_NAME%22:%7B%22items%22:%5B%5D,%22value%22:%22%22%7D,%22PERIOD%22:%7B%22items%22:%5B%5D,%22value%22:%22%22%7D%7D%7D",
+			"FOR_USERS": "",
+			"TABLE_COLUMNS": "%5B%5D",
+			"CHART_CONFIG": null
+		}, {
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.TableViewer3.xs.services.Main.UserVariantsType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/Main.xsodata/UserVariants(CTRLID='CTRL_INP',VARIANTID='SV1488354055868',USERID='Z003N76U',IS_GLOBAL=0)"
+			},
+			"CTRLID": "CTRL_INP",
+			"VARIANTID": "SV1488354055868",
+			"USERID": "Z003N76U",
+			"VARIANT_NAME": "test1",
+			"IS_DEFAULT": 1,
+			"IS_GLOBAL": 0,
+			"IS_HIDDEN": 0,
+			"FILTER_OBJECT": "%7B%22filterbar%22:%5B%7B%22group%22:%22__$INTERNAL$%22,%22name%22:%22ARE%22,%22partOfCurrentVariant%22:true,%22visibleInFilterBar%22:true%7D,%7B%22group%22:%22__$INTERNAL$%22,%22name%22:%22ARE_COUNTRY%22,%22partOfCurrentVariant%22:true,%22visibleInFilterBar%22:true%7D,%7B%22group%22:%22__$INTERNAL$%22,%22name%22:%22ARE_COUNTRY_CODE%22,%22partOfCurrentVariant%22:true,%22visibleInFilterBar%22:true%7D,%7B%22group%22:%22__$INTERNAL$%22,%22name%22:%22BELEGDATUM%22,%22partOfCurrentVariant%22:true,%22visibleInFilterBar%22:true%7D,%7B%22group%22:%22__$INTERNAL$%22,%22name%22:%22BELEGNR%22,%22partOfCurrentVariant%22:true,%22visibleInFilterBar%22:false%7D,%7B%22group%22:%22__$INTERNAL$%22,%22name%22:%22BELEGPOS%22,%22partOfCurrentVariant%22:true,%22visibleInFilterBar%22:false%7D,%7B%22group%22:%22__$INTERNAL$%22,%22name%22:%22BILKT%22,%22partOfCurrentVariant%22:true,%22visibleInFilterBar%22:false%7D,%7B%22group%22:%22__$INTERNAL$%22,%22name%22:%22BUKRS%22,%22partOfCurrentVariant%22:true,%22visibleInFilterBar%22:false%7D,%7B%22group%22:%22__$INTERNAL$%22,%22name%22:%22BUNIT%22,%22partOfCurrentVariant%22:true,%22visibleInFilterBar%22:false%7D,%7B%22group%22:%22__$INTERNAL$%22,%22name%22:%22BUS_SEGMENT%22,%22partOfCurrentVariant%22:true,%22visibleInFilterBar%22:false%7D,%7B%22group%22:%22__$INTERNAL$%22,%22name%22:%22BUS_SUBSEGMENT%22,%22partOfCurrentVariant%22:true,%22visibleInFilterBar%22:false%7D,%7B%22group%22:%22__$INTERNAL$%22,%22name%22:%22CITY%22,%22partOfCurrentVariant%22:true,%22visibleInFilterBar%22:true%7D,%7B%22group%22:%22__$INTERNAL$%22,%22name%22:%22CI_ARE_NAME%22,%22partOfCurrentVariant%22:true,%22visibleInFilterBar%22:false%7D,%7B%22group%22:%22__$INTERNAL$%22,%22name%22:%22PERIOD%22,%22partOfCurrentVariant%22:true,%22visibleInFilterBar%22:true%7D%5D,%22filterBarVariant%22:%7B%22ARE%22:%7B%22items%22:%5B%5D,%22value%22:%22%22%7D,%22ARE_COUNTRY%22:%7B%22items%22:%5B%7B%22key%22:%22Algeria%22,%22text%22:%22Algeria%22%7D%5D,%22ranges%22:%5B%5D%7D,%22ARE_COUNTRY_CODE%22:%7B%22items%22:%5B%5D,%22value%22:%22%22%7D,%22BELEGDATUM%22:%7B%22items%22:%5B%5D,%22value%22:%22%22%7D,%22BELEGNR%22:%7B%22items%22:%5B%5D,%22value%22:%22%22%7D,%22BELEGPOS%22:%7B%22items%22:%5B%5D,%22value%22:%22%22%7D,%22BILKT%22:%7B%22items%22:%5B%5D,%22value%22:%22%22%7D,%22BUKRS%22:%7B%22items%22:%5B%5D,%22value%22:%22%22%7D,%22BUNIT%22:%7B%22items%22:%5B%5D,%22value%22:%22%22%7D,%22BUS_SEGMENT%22:%7B%22items%22:%5B%5D,%22value%22:%22%22%7D,%22BUS_SUBSEGMENT%22:%7B%22items%22:%5B%5D,%22value%22:%22%22%7D,%22CITY%22:%7B%22items%22:%5B%5D,%22value%22:%22%22%7D,%22CI_ARE_NAME%22:%7B%22items%22:%5B%5D,%22value%22:%22%22%7D,%22PERIOD%22:%7B%22items%22:%5B%5D,%22value%22:%22%22%7D%7D%7D",
+			"FOR_USERS": "",
+			"TABLE_COLUMNS": "%5B%7B%22fieldName%22:%22ARE%22,%22sortOrder%22:null%7D,%7B%22fieldName%22:%22DISCOUNT_EUR%22,%22sortOrder%22:null%7D%5D",
+			"CHART_CONFIG": null
+		}, {
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.TableViewer3.xs.services.Main.UserVariantsType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/Main.xsodata/UserVariants(CTRLID='HV_02',VARIANTID='SV1487928696994',USERID='Z003N76U',IS_GLOBAL=0)"
+			},
+			"CTRLID": "HV_02",
+			"VARIANTID": "SV1487928696994",
+			"USERID": "Z003N76U",
+			"VARIANT_NAME": "Test",
+			"IS_DEFAULT": 0,
+			"IS_GLOBAL": 0,
+			"IS_HIDDEN": 0,
+			"FILTER_OBJECT": "%7B%22filterbar%22:%5B%7B%22group%22:%22__$INTERNAL$%22,%22name%22:%22QUERY_NODE_NAME%22,%22partOfCurrentVariant%22:true,%22visibleInFilterBar%22:true%7D%5D,%22filterBarVariant%22:%7B%22QUERY_NODE_NAME%22:%7B%22items%22:%5B%7B%22key%22:%22Hierarchy%22,%22text%22:%22HSC%22%7D,%7B%22key%22:%22Hierarchy%22,%22text%22:%22HSC001%22%7D,%7B%22key%22:%22Hierarchy%22,%22text%22:%22HSC00181%22%7D,%7B%22key%22:%22Hierarchy%22,%22text%22:%22HSC0018107%22%7D,%7B%22key%22:%22Hierarchy%22,%22text%22:%22HSC0018108%22%7D%5D,%22ranges%22:%5B%5D%7D%7D%7D",
+			"FOR_USERS": "",
+			"TABLE_COLUMNS": "null",
+			"CHART_CONFIG": null
+		}, {
+			"__metadata": {
+				"type": "siemens.COMMON_DEV.TableViewer3.xs.services.Main.UserVariantsType",
+				"uri": "https://demchdc9scx.dc4ca.siemens.de:4300/siemens/COMMON_DEV/TableViewer3/xs/services/Main.xsodata/UserVariants(CTRLID='HV_02',VARIANTID='SV1489125615460',USERID='Z003N76U',IS_GLOBAL=0)"
+			},
+			"CTRLID": "HV_02",
+			"VARIANTID": "SV1489125615460",
+			"USERID": "Z003N76U",
+			"VARIANT_NAME": "withColumnConfig",
+			"IS_DEFAULT": 1,
+			"IS_GLOBAL": 0,
+			"IS_HIDDEN": 0,
+			"FILTER_OBJECT": "%7B%22filterbar%22:%5B%7B%22group%22:%22__$INTERNAL$%22,%22name%22:%22QUERY_NODE_NAME%22,%22partOfCurrentVariant%22:true,%22visibleInFilterBar%22:true%7D%5D,%22filterBarVariant%22:%7B%22QUERY_NODE_NAME%22:%7B%22items%22:%5B%7B%22key%22:%22Hierarchy%22,%22text%22:%22HSC%22%7D,%7B%22key%22:%22Hierarchy%22,%22text%22:%22HSC001%22%7D,%7B%22key%22:%22Hierarchy%22,%22text%22:%22HSC00181%22%7D,%7B%22key%22:%22Hierarchy%22,%22text%22:%22HSC0018107%22%7D,%7B%22key%22:%22Hierarchy%22,%22text%22:%22HSC0018108%22%7D%5D,%22ranges%22:%5B%5D%7D%7D%7D",
+			"FOR_USERS": "",
+			"TABLE_COLUMNS": "%5B%7B%22fieldName%22:%22DUE_11_30%22,%22sortOrder%22:null%7D,%7B%22fieldName%22:%22DUE_181_360%22,%22sortOrder%22:null%7D,%7B%22fieldName%22:%22DUE_91_180%22,%22sortOrder%22:null%7D,%7B%22fieldName%22:%22DUE_LE10%22,%22sortOrder%22:null%7D,%7B%22fieldName%22:%22QUERY_NODE_NAME%22,%22sortOrder%22:null%7D%5D",
+			"CHART_CONFIG": "%5B%5D"
+		}]
+	}
+}

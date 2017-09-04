@@ -1,0 +1,150 @@
+<core:FragmentDefinition
+		xmlns="sap.m"
+		xmlns:l="sap.ui.layout"
+		xmlns:f="sap.ui.layout.form"
+		xmlns:core="sap.ui.core"
+		xmlns:commons="sap.ui.commons"
+		xmlns:data="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1">
+	<Dialog
+			id="siemensUiCellColorDialog"
+			title="{i18n>cellConfig.dialog.xtit}"
+			beforeOpen="onBeforeOpeCellColorDialog"
+			afterClose="onAfterCloseCellColorDialog"
+			contentHeight="70%"
+			contentWidth="95%">
+		<content>
+			<f:Form
+					id="siemensUiCellColorForm"
+					maxContainerCols="6"
+					editable="true"
+					formContainers="{cellColorsColumnModel>/items}">
+				<f:layout>
+					<f:ResponsiveGridLayout
+							labelSpanL="2"
+							labelSpanM="2"
+							emptySpanL="0"
+							emptySpanM="0"
+							columnsL="1"
+							columnsM="1"/>
+				</f:layout>
+				<f:FormContainer
+						data:column="{cellColorsColumnModel>COLUMN}">
+					<f:formElements>
+						<f:FormElement
+								label="{cellColorsColumnModel>LABEL}">
+							<f:fields>
+								<VBox
+										class="sapUiTinyMarginTop">
+									<HBox>
+										<HBox
+												width="1000px"
+												data:column="{cellColorsColumnModel>COLUMN}">
+											<commons:RangeSlider
+													class="sapUiTinyMarginEnd"
+													width="400px"
+													stepLabels="true"
+													totalUnits="4"
+													value="{path : 'cellColorsColumnModel>SLIDER_VALUE1', formatter : '.coloring.fnParseValue'}"
+													value2="{path : 'cellColorsColumnModel>SLIDER_VALUE2', formatter : '.coloring.fnParseValue'}"
+													min="{path : 'cellColorsColumnModel>SLIDER_MIN', formatter : '.coloring.fnParseValue'}"
+													max="{path : 'cellColorsColumnModel>SLIDER_MAX', formatter : '.coloring.fnParseValue'}"
+													change="onRangeSliderChange"
+													liveChange="onRangeSliderChange"
+													data:column="{cellColorsColumnModel>COLUMN}"
+													data:CFORMAT_CONDITION="{cellColorsColumnModel>CONDITION}">
+											</commons:RangeSlider>
+											<HBox>
+												<Input
+														class="sapUiTinyMarginEnd"
+														value="{path : 'cellColorsColumnModel>SLIDER_VALUE1', formatter : '.coloring.fnParseValue'}"
+														width="100px"
+														change="onSliderOneValueChange"
+														data:COLUMN="{cellColorsColumnModel>COLUMN}"
+														data:CFORMAT_CONDITION="{cellColorsColumnModel>CONDITION}">
+												</Input>
+												<Input
+														class="sapUiTinyMarginEnd"
+														value="{path : 'cellColorsColumnModel>SLIDER_VALUE2', formatter : '.coloring.fnParseValue'}"
+														width="100px"
+														change="onSliderTwoValueChange"
+														data:COLUMN="{cellColorsColumnModel>COLUMN}"
+														data:CFORMAT_CONDITION="{cellColorsColumnModel>CONDITION}">
+												</Input>
+											</HBox>
+										</HBox>
+										<HBox
+											width="500px">
+											<Label
+													class="sapUiTinyMarginTop sapUiTinyMarginEnd"
+													text="{i18n>cellConfig.Range.xlbl}">
+											</Label>
+											<Input
+													class="sapUiTinyMarginEnd"
+													value="{path : 'cellColorsColumnModel>SLIDER_MIN', formatter : '.coloring.fnParseValue'}"
+													width="100px"
+													change="onSliderMinValueChange"
+													data:COLUMN="{cellColorsColumnModel>COLUMN}"
+													data:CFORMAT_CONDITION="{cellColorsColumnModel>CONDITION}">
+											</Input>
+											<Input
+													class="sapUiTinyMarginEnd"
+													value="{path : 'cellColorsColumnModel>SLIDER_MAX', formatter : '.coloring.fnParseValue'}"
+													width="100px"
+													change="onSliderMaxValueChange"
+													data:COLUMN="{cellColorsColumnModel>COLUMN}"
+													data:CFORMAT_CONDITION="{cellColorsColumnModel>CONDITION}">
+											</Input>
+										</HBox>
+									</HBox>
+									<HBox
+											data:column="{cellColorsColumnModel>COLUMN}">
+										<Select
+												class="sapUiTinyMarginEnd"
+												width="100px"
+												selectedKey="{cellColorsColumnModel>COLORS_DEFAULT_KEY/0}"
+												visible="{cellColorsColumnModel>VISIBILITY/0}"
+												items="{cellColorsColumnModel>COLOROPTIONS}">
+											<core:Item
+													key="{cellColorsColumnModel>key}"
+													text="{path : 'cellColorsColumnModel>text', formatter : '.coloring.fnFormatColorText'}"/>
+										</Select>
+										<Select
+												class="sapUiTinyMarginEnd"
+												width="100px"
+												selectedKey="{cellColorsColumnModel>COLORS_DEFAULT_KEY/1}"
+												visible="{cellColorsColumnModel>VISIBILITY/1}"
+												items="{cellColorsColumnModel>COLOROPTIONS}">
+											<core:Item
+													key="{cellColorsColumnModel>key}"
+													text="{path : 'cellColorsColumnModel>text', formatter : '.coloring.fnFormatColorText'}"/>
+										</Select>
+										<Select
+												width="100px"
+												items="{cellColorsColumnModel>COLOROPTIONS}"
+												selectedKey="{cellColorsColumnModel>COLORS_DEFAULT_KEY/2}"
+												visible="{cellColorsColumnModel>VISIBILITY/2}">
+											<core:Item
+													key="{cellColorsColumnModel>key}"
+													text="{path : 'cellColorsColumnModel>text', formatter : '.coloring.fnFormatColorText'}"/>
+										</Select>
+									</HBox>
+								</VBox>
+							</f:fields>
+						</f:FormElement>
+					</f:formElements>
+				</f:FormContainer>
+			</f:Form>
+		</content>
+		<beginButton>
+			<Button
+					text="{i18n>cellConfig.form.save}"
+					type="Emphasized"
+					press="onSaveCellColorDialog"/>
+		</beginButton>
+		<endButton>
+			<Button
+					text="{i18n>cellConfig.form.cancel}"
+					press="onCloseCellColorDialog"/>
+		</endButton>
+	</Dialog>
+</core:FragmentDefinition>
